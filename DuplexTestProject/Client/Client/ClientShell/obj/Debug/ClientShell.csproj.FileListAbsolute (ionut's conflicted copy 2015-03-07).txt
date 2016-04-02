@@ -1,0 +1,246 @@
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csprojResolveAssemblyReference.cache
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.cache
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.lref
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe.config
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.Extensions.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Extensions.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Scheduler.Module.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Subscription.Service.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\System.Windows.Interactivity.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Scheduler.Module.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Subscription.Service.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\System.Windows.Interactivity.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.g.resources
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.Properties.Resources.resources
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csproj.GenerateResource.Cache
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.exe
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Styles\Buttons.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csprojResolveAssemblyReference.cache
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Styles\Buttons.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.cache
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.lref
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe.config
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.Extensions.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Extensions.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Database.Model.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Database.Model.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.g.resources
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.Properties.Resources.resources
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csproj.GenerateResource.Cache
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.exe
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.FileUpload.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.FileUpload.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Filters.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Filters.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csprojResolveAssemblyReference.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Styles\Buttons.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTab\HorizontalTabView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\Patient\PatientView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tiles\PatientTileView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\App.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell_MarkupCompile.lref
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe.config
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.exe
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ClientShell.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.Extensions.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Extensions.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Database.Model.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Filters.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Reports.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.FileUpload.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Controls.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Database.Model.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Filters.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.DentalRecords.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalData.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Reports.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Data.v12.2.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.FileUpload.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Shell\ClientShellView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\HorizontalTabs\HorizontalTabsView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\Views\Tabs\ListView\LeftListView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.g.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.Properties.Resources.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.csproj.GenerateResource.Cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.exe
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\ClientShell.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalInfo.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\bin\Debug\DSA.Module.PersonalInfo.pdb

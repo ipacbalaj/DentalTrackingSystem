@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="DSA.Module.DentalRecords.Interventions.InterventionsGeneralDetails.InterventionsGeneralDetailsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+             xmlns:birthDays="clr-namespace:DSA.Module.DentalRecords.Interventions.InterventionsGeneralDetails.BirthDays"
+             mc:Ignorable="d" 
+             d:DesignHeight="70" d:DesignWidth="500">
+    <Border Background="SteelBlue"  BorderThickness="1"  BorderBrush="DarkSlateGray">
+       <Grid  Margin="50 5 50 5">
+           <Grid.ColumnDefinitions>
+               <ColumnDefinition Width="*"/>
+               <ColumnDefinition Width="Auto"/>
+           </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center">
+            <Run Text="Ai tratat: " FontSize="19" Foreground="LightGray"></Run>
+            <Run FontSize="19" Text="{Binding TotalPatients}" Foreground="White"></Run>
+            <Run Foreground="White" Text="pacienți" FontSize="19"></Run>
+            
+            <Run Text=", realizând " FontSize="19" Foreground="LightGray"></Run>
+            <Run FontSize="19" Text="{Binding TotalInverventions}" Foreground="White"></Run>
+            <Run Text="manopere " Foreground="White"  FontSize="19"></Run>
+            
+            <Run Text="intr-un timp total de:" FontSize="19" Foreground="LightGray"></Run>
+            <Run FontSize="19" Text="{Binding NbH}" Foreground="White"></Run>
+            <Run Text="ore " Foreground="White" FontSize="19"></Run>
+            <Run Text="si " Foreground="LightGray" FontSize="19"></Run>
+<!--            <Run Text="" FontSize="19" Foreground="LightGray"></Run>-->
+            <Run FontSize="19" Text="{Binding NBMinutes}" Foreground="White"></Run>
+            <Run Foreground="White"  Text="minute.        " FontSize="19"></Run>
+            
+            <Run Text="Incasări Totale: " FontSize="19" Foreground="LightGray"></Run>
+            <Run FontSize="19" Text="{Binding TotalRevenue}" Foreground="White"></Run>
+            <Run Text="        " FontSize="19"></Run>
+            
+            <Run Text="Procent Total: " FontSize="19" Foreground="LightGray"></Run>
+            <Run FontSize="19" Text="{Binding TotalProfit}" Foreground="White"></Run>
+<!--            <Run Text="   " FontSize="19"></Run>-->
+            </TextBlock>
+            <Grid  HorizontalAlignment="Right"  Grid.Column="1">
+                <birthDays:BirthdaysView Margin="0 -3 0 -3" MaxHeight="40" DataContext="{Binding BirthDaysViewModel}"/>
+                <!--                <Grid.ColumnDefinitions>-->
+                <!--                    <ColumnDefinition Width="Auto"/>-->
+                <!--                    <ColumnDefinition Width="*"/>-->
+                <!--                </Grid.ColumnDefinitions>-->
+                <!--                <TextBlock Foreground="LightGray" FontSize="19" VerticalAlignment ="Center" Text="Onomastice:" FontWeight="SemiBold" Grid.Column="0" Grid.Row ="0"></TextBlock>-->
+                <!--                <TextBlock Margin="5 0 5 0" VerticalAlignment ="Center" FontWeight="SemiBold" Grid.Column="1" Grid.Row ="0">-->
+                <!--                                        <Run Foreground="White" FontSize="19" Text="{Binding Names}"></Run>-->
+                <!--                </TextBlock>-->
+            </Grid>
+        </Grid>       
+    </Border>
+</UserControl>

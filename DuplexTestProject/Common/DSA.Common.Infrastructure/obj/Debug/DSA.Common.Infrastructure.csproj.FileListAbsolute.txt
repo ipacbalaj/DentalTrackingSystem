@@ -1,0 +1,583 @@
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\PhoneIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.baml
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SubmitIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AdminIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\AnalyzeIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\BlueCancelIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CheckBoxIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseOpenArrow.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\CloseTabIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DashboardIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\DateIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\EditIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\FiltersIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\GreaterIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\LoanIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\NoteLoanIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\OpenTabIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\manopera.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SearchIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SettingsIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\SubmitIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth1.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth2.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth3.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth4.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\Tooth5.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\ToothTest.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\Icos\UserIcon.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure_MarkupCompile.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.g.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\DSA.Common.Infrastructure\obj\Debug\DSA.Common.Infrastructure.pdb

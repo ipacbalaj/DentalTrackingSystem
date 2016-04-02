@@ -1,0 +1,20 @@
+﻿ClientShell
+
+
+winexe
+C#
+.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\obj\Debug\
+ClientShell
+none
+false
+DEBUG;TRACE
+C:\Users\Pac-Balaj ionutzela2\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\ClientShell\App.xaml
+7-1056492012
+
+18-843640395
+361126360054
+Styles\Buttons.xaml;Views\Shell\ClientShellView.xaml;Views\Tabs\HorizontalTabs\HorizontalTabsView.xaml;Views\Tabs\HorizontalTab\HorizontalTabView.xaml;Views\Tabs\ListView\LeftListView.xaml;Views\Tabs\ListView\Patient\PatientView.xaml;Views\Tiles\PatientTileView.xaml;
+
+False
+

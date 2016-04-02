@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="DSA.Module.PersonalData.SettingsColumns.SettingsItem.SettingsItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+ 
+             mc:Ignorable="d" dx:ThemeManager.ThemeName="DXStyle"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Width="200" Margin="5 0 0 0" HorizontalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <!--                <RowDefinition Height="Auto"/>-->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <!--        <TextBlock Text="{Binding SettingsColumnName}" FontWeight="SemiBold"/>-->
+        <dxg:GridControl  Grid.Row="0"  dx:DXSerializer.SerializationID="grid"                          
+                         dx:DXSerializer.StoreLayoutMode="All"
+                         dxg:GridSerializationOptions.AddNewColumns="False" 
+                         dxg:GridSerializationOptions.RemoveOldColumns="False"   
+                         
+                         ItemsSource="{Binding SettingsSubItems}"  AutoPopulateColumns="False" Name="ViewPatientGrid" 
+                           VerticalAlignment="Stretch" AutoExpandAllGroups="True">
+            <dxg:GridControl.View>
+                <dxg:TableView Name="tableView1" AllowResizing="True"   ShowGroupPanel="False" AllowBestFit="True" AutoWidth="True" BestFitMode="AllRows" Width="Auto"
+                              />
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns >
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True"   FieldName="Name" Header="{Binding SettingsColumnName}"/>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBox Text="{Binding AddedSettingName}"></TextBox>
+            <buttons:ActionButtonView Grid.Column="1" DataContext="{Binding AddSetItem}"/>
+        </Grid>
+    </Grid>
+</UserControl>

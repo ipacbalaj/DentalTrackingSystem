@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="DSA.Module.PersonalData.SettingsColumns.Works.WorkTile.WorkTileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:symbolButton="clr-namespace:DSA.Common.Controls.Buttons.SymbolButton;assembly=DSA.Common.Controls"
+             xmlns:icos="clr-namespace:DSA.Common.Infrastructure.Icos;assembly=DSA.Common.Infrastructure"
+             xmlns:workTypeTile="clr-namespace:DSA.Module.PersonalData.SettingsColumns.Works.WorkTile.WorkTypeTile"
+             xmlns:workTypeTileList="clr-namespace:DSA.Module.PersonalData.SettingsColumns.Works.WorkTile.WorkTypeTileList"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Border MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown" MinHeight="40" MaxHeight="40" Background="{Binding ContentBackGround}" CornerRadius="3" BorderThickness="0.7" BorderBrush="SlateGray" MouseEnter="UIElement_OnMouseEnter" MouseLeave="UIElement_OnMouseLeave">
+            <Grid Margin="5 0 5 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="{Binding NormalViewHeight}"/>
+                    <RowDefinition Height="{Binding EditViewHeight}"/>
+                    <!--                <RowDefinition Height="Auto"/>-->
+                </Grid.RowDefinitions>
+                <Grid Visibility="{Binding NormalDisplayVisibility}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <!--                    <ColumnDefinition Width="30"/>-->
+                    </Grid.ColumnDefinitions>
+                    <CheckBox  Margin="3 0 3 0" Grid.Column="0" VerticalAlignment="Center" IsChecked="{Binding IncludedINFinancial}"></CheckBox>
+                    <TextBlock VerticalAlignment="Center" Grid.Column="1" FontWeight="SemiBold" FontSize="14" Text="{Binding Name}"></TextBlock>
+                    <TextBlock  Text="Procent" Margin="5 0 5 0" Foreground="Red" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="2"></TextBlock>
+                    <TextBlock   Margin="5 0 5 0" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="3">
+                    <Run Text="{Binding Percent}" />
+                    <Run Text="%" Foreground="Red"/>
+                    </TextBlock>
+
+<!--                    <TextBlock  Text="Cost:" Margin="5 0 5 0" Foreground="Red" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="4"></TextBlock>-->
+<!--                    <TextBlock  Margin="5 0 5 0" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="5">-->
+<!--                    <Run Text="{Binding Cost}" />-->
+<!--                    <Run Text="lei" Foreground="Red"/>-->
+<!--                    </TextBlock>-->
+                    <!--            <optionButton:OptionButtonView MaxHeight="34" Grid.Column="1" VerticalContentAlignment="Center" Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}" DataContext="{Binding EditButton}" VerticalAlignment="Top" HorizontalAlignment="Stretch" />-->
+                    <symbolButton:SymbolIconButtonView Margin="1.5" Grid.Column="7"  Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}"  DataContext="{Binding DeleteBtn}"/>
+                    <symbolButton:SymbolIconButtonView Margin="1.5" Grid.Column="6"  Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}"  DataContext="{Binding EditButton}"/>
+                    <!--                <Viewbox Margin="5" MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown" Grid.Column="8">-->
+                    <!--                    <icos:CloseOpenArrow>-->
+                    <!--                        <icos:CloseOpenArrow.RenderTransform>-->
+                    <!--                            <TransformGroup>-->
+                    <!--                                <ScaleTransform ScaleX="2" ScaleY="2" CenterX="32" CenterY="32" />-->
+                    <!--                                <RotateTransform CenterX="32" CenterY="32" Angle="{Binding ExpanderRotation}"/>-->
+                    <!--                            </TransformGroup>-->
+                    <!--                        </icos:CloseOpenArrow.RenderTransform>-->
+                    <!--                    </icos:CloseOpenArrow>-->
+                    <!--                </Viewbox>-->
+                </Grid>
+                <Grid Grid.Row="1" Visibility="{Binding EditDisplayVisibility}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.7*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <!--                    <ColumnDefinition Width="30"/>-->
+                    </Grid.ColumnDefinitions>
+                    <TextBox FontSize="14" VerticalAlignment="Center" FontWeight="SemiBold" Text="{Binding Name}"></TextBox>
+                    <TextBlock  Text="Procent:" Margin="5,2,5,1" Foreground="Red" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="1"></TextBlock>
+                    <!--                <TextBox Visibility="{Binding CostVisibility}" Text="{Binding Cost}"  Margin="5 0 5 0" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="2"></TextBox>-->
+                    <StackPanel  MinWidth="100" HorizontalAlignment="Stretch" Orientation="Horizontal" Margin="5,0,0,0" Grid.Column="2" Grid.ColumnSpan="2">
+                        <TextBox MinWidth="50" VerticalAlignment="Center" HorizontalAlignment="Stretch" BorderThickness="1,1,0,1" Text="{Binding Percent}"/>
+                        <TextBox VerticalAlignment="Center" BorderThickness="0,1,1,1" HorizontalAlignment="Stretch"
+                     Text="%" Foreground="Red" IsReadOnly="True"
+                     IsTabStop="False" />
+                    </StackPanel>
+<!---->
+<!--                    <TextBlock Text="Cost:" Margin="5,2,5,1" Foreground="Red" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="3"></TextBlock>-->
+<!--                    ~1~                <TextBox Visibility="{Binding CostVisibility}" Text="{Binding Cost}"  Margin="5 0 5 0" VerticalAlignment="Center" FontWeight="SemiBold" Grid.Column="2"></TextBox>@1@-->
+<!--                    <StackPanel  MinWidth="100" HorizontalAlignment="Stretch" Orientation="Horizontal" Margin="5,0,0,0" Grid.Column="4" Grid.ColumnSpan="2">-->
+<!--                        <TextBox  MinWidth="50" VerticalAlignment="Center" HorizontalAlignment="Stretch" BorderThickness="1,1,0,1" Text="{Binding Cost}"/>-->
+<!--                        <TextBox VerticalAlignment="Center" BorderThickness="0,1,1,1" HorizontalAlignment="Stretch"-->
+<!--                     Text="lei" IsReadOnly="True" Foreground="Red"-->
+<!--                     IsTabStop="False" />-->
+<!--                    </StackPanel>-->
+                    <symbolButton:SymbolIconButtonView Margin="1.5" Grid.Column="6"  Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}"  DataContext="{Binding DeleteBtn}"/>
+                    <!--                <symbolButton:SymbolIconButtonView Grid.Column="5"  Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}"  DataContext="{Binding SaveBtn}"/>-->
+                    <!--            <optionButton:OptionButtonView MaxHeight="34" Grid.Column="1" VerticalContentAlignment="Center" Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}" DataContext="{Binding EditButton}" VerticalAlignment="Top" HorizontalAlignment="Stretch" />-->
+                    <!--                <Viewbox MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown" Margin="5" Grid.Column="7">-->
+                    <!--                    <icos:CloseOpenArrow>-->
+                    <!--                        <icos:CloseOpenArrow.RenderTransform>-->
+                    <!--                            <TransformGroup>-->
+                    <!--                                <ScaleTransform ScaleX="2" ScaleY="2" CenterX="32" CenterY="32" />-->
+                    <!--                                <RotateTransform CenterX="32" CenterY="32" Angle="{Binding ExpanderRotation}"/>-->
+                    <!--                            </TransformGroup>-->
+                    <!--                        </icos:CloseOpenArrow.RenderTransform>-->
+                    <!--                    </icos:CloseOpenArrow>-->
+                    <!--                </Viewbox>-->
+                </Grid>
+            </Grid>
+        </Border>
+<!--        <Border Grid.Row="1" Margin="10 0 10 0" Visibility="{Binding IsWorkExpanded}" Background="CornflowerBlue" BorderBrush="SlateGray" BorderThickness="0.7">-->
+<!--            <workTypeTileList:WorkTypeTileListView DataContext="{Binding WorkTypeTileList}"/>-->
+<!--        </Border>-->
+    </Grid>
+
+</UserControl>

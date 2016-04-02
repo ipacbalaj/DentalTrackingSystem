@@ -1,0 +1,16 @@
+﻿<Window x:Class="DSA.Client.Shell.Views.Shell.ClientShellView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:listView="clr-namespace:DSA.Client.Shell.Views.Tabs.ListView"
+             mc:Ignorable="d" 
+             WindowState="Maximized">
+    <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+        <listView:LeftListView DataContext="{Binding ListViewModel}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.dll.config
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.dll
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.pdb
+E:\Potitehnica\ds\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.csprojResolveAssemblyReference.cache
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.dll.config
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\bin\Debug\DSA.Subscription.Service.pdb
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.csprojResolveAssemblyReference.cache
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.dll
+D:\c#\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Subscription.Service\obj\Debug\DSA.Subscription.Service.pdb

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DuplexService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSDualHttpBinding_IDuplexService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="600000" />
+          <wsrm:AcknowledgementInterval Milliseconds="200" />
+        </wsrm:RMAssertion>
+        <cdp:CompositeDuplex xmlns:cdp="http://schemas.microsoft.com/net/2006/06/duplex" />
+        <ow:OneWay xmlns:ow="http://schemas.microsoft.com/ws/2005/05/routing/policy" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities" />
+      <xsd:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDuplexService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_Subscribe_InputMessage">
+    <wsdl:part name="parameters" element="tns:Subscribe" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_Subscribe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubscribeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_Unsubscribe_InputMessage">
+    <wsdl:part name="parameters" element="tns:Unsubscribe" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_Unsubscribe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnsubscribeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetLocalPatients_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocalPatients" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetLocalPatients_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocalPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AddPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPatient" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AddPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AddAppointmet_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAppointmet" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AddAppointmet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAppointmetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetWeeks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeks" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetWeeks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetAreas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAreas" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetAreas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAreasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetWorks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorks" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetWorks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetMaterials_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaterials" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetMaterials_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaterialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetLocations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocations" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GetLocations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_TestCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:TestCallback" />
+  </wsdl:message>
+  <wsdl:portType name="IDuplexService">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetData" message="tns:IDuplexService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetDataResponse" message="tns:IDuplexService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Subscribe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/Subscribe" message="tns:IDuplexService_Subscribe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/SubscribeResponse" message="tns:IDuplexService_Subscribe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Unsubscribe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/Unsubscribe" message="tns:IDuplexService_Unsubscribe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/UnsubscribeResponse" message="tns:IDuplexService_Unsubscribe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalPatients">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetLocalPatients" message="tns:IDuplexService_GetLocalPatients_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetLocalPatientsResponse" message="tns:IDuplexService_GetLocalPatients_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/AddPatient" message="tns:IDuplexService_AddPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/AddPatientResponse" message="tns:IDuplexService_AddPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAppointmet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/AddAppointmet" message="tns:IDuplexService_AddAppointmet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/AddAppointmetResponse" message="tns:IDuplexService_AddAppointmet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetWeeks" message="tns:IDuplexService_GetWeeks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetWeeksResponse" message="tns:IDuplexService_GetWeeks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetAreas" message="tns:IDuplexService_GetAreas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetAreasResponse" message="tns:IDuplexService_GetAreas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetWorks" message="tns:IDuplexService_GetWorks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetWorksResponse" message="tns:IDuplexService_GetWorks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaterials">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetMaterials" message="tns:IDuplexService_GetMaterials_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetMaterialsResponse" message="tns:IDuplexService_GetMaterials_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDuplexService/GetLocations" message="tns:IDuplexService_GetLocations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/GetLocationsResponse" message="tns:IDuplexService_GetLocations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IDuplexService/TestCallback" message="tns:IDuplexService_TestCallback_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSDualHttpBinding_IDuplexService" type="tns:IDuplexService">
+    <wsp:PolicyReference URI="#WSDualHttpBinding_IDuplexService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Subscribe">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/Subscribe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Unsubscribe">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/Unsubscribe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalPatients">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetLocalPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPatient">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/AddPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAppointmet">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/AddAppointmet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeks">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetWeeks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreas">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetAreas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorks">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetWorks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaterials">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetMaterials" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/GetLocations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestCallback">
+      <soap12:operation soapAction="http://tempuri.org/IDuplexService/TestCallback" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DuplexService">
+    <wsdl:port name="WSDualHttpBinding_IDuplexService" binding="tns:WSDualHttpBinding_IDuplexService">
+      <soap12:address location="http://localhost:8733/DuplexService/ws" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://localhost:8733/DuplexService/ws</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

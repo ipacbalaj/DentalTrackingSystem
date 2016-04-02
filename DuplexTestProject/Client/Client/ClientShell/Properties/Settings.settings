@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClientShell.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Databasepath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Pac-Balaj ionutzela2\AppData\Roaming\DTS</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

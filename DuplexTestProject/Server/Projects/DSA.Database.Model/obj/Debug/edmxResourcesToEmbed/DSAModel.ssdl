@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DSAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DSAModelStoreContainer">
+    <EntitySet Name="Patients" EntityType="DSAModel.Store.Patients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Interventions" EntityType="DSAModel.Store.Interventions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Materials" EntityType="DSAModel.Store.Materials" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Locations" EntityType="DSAModel.Store.Locations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Areas" EntityType="DSAModel.Store.Areas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DateHourDetails" EntityType="DSAModel.Store.DateHourDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Revenues" EntityType="DSAModel.Store.Revenues" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Works" EntityType="DSAModel.Store.Works" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Years" EntityType="DSAModel.Store.Years" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Months" EntityType="DSAModel.Store.Months" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PatientIntervention" Association="DSAModel.Store.PatientIntervention">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Intervention" EntitySet="Interventions" />
+    </AssociationSet>
+    <AssociationSet Name="InterventionLocation" Association="DSAModel.Store.InterventionLocation">
+      <End Role="Intervention" EntitySet="Interventions" />
+      <End Role="Location" EntitySet="Locations" />
+    </AssociationSet>
+    <AssociationSet Name="MaterialIntervention" Association="DSAModel.Store.MaterialIntervention">
+      <End Role="Material" EntitySet="Materials" />
+      <End Role="Intervention" EntitySet="Interventions" />
+    </AssociationSet>
+    <AssociationSet Name="InterventionDateHourDetails" Association="DSAModel.Store.InterventionDateHourDetails">
+      <End Role="Intervention" EntitySet="Interventions" />
+      <End Role="DateHourDetails" EntitySet="DateHourDetails" />
+    </AssociationSet>
+    <AssociationSet Name="AreaIntervention" Association="DSAModel.Store.AreaIntervention">
+      <End Role="Intervention" EntitySet="Interventions" />
+      <End Role="Area" EntitySet="Areas" />
+    </AssociationSet>
+    <AssociationSet Name="InterventionRevenue" Association="DSAModel.Store.InterventionRevenue">
+      <End Role="Intervention" EntitySet="Interventions" />
+      <End Role="Revenue" EntitySet="Revenues" />
+    </AssociationSet>
+    <AssociationSet Name="InterventionWork" Association="DSAModel.Store.InterventionWork">
+      <End Role="Intervention" EntitySet="Interventions" />
+      <End Role="Work" EntitySet="Works" />
+    </AssociationSet>
+    <AssociationSet Name="YearIntervention" Association="DSAModel.Store.YearIntervention">
+      <End Role="Year" EntitySet="Years" />
+      <End Role="Intervention" EntitySet="Interventions" />
+    </AssociationSet>
+    <AssociationSet Name="MonthIntervention" Association="DSAModel.Store.MonthIntervention">
+      <End Role="Month" EntitySet="Months" />
+      <End Role="Intervention" EntitySet="Interventions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="surname" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Interventions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Observation" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Patient_id" Type="int" Nullable="false" />
+    <Property Name="Location_Id" Type="int" Nullable="true" />
+    <Property Name="Material_Id" Type="int" Nullable="true" />
+    <Property Name="DateHourDetail_Id" Type="int" Nullable="false" />
+    <Property Name="Area_Id" Type="int" Nullable="true" />
+    <Property Name="Revenue_Id" Type="int" Nullable="true" />
+    <Property Name="Work_Id" Type="int" Nullable="true" />
+    <Property Name="Year_Id" Type="int" Nullable="false" />
+    <Property Name="Month_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Materials">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Areas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DateHourDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartHour" Type="datetime" Nullable="false" />
+    <Property Name="EndingHour" Type="datetime" Nullable="false" />
+    <Property Name="Duration" Type="time" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Revenues">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Works">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Years">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YearNb" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Months">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MOnthNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PatientIntervention">
+    <End Role="Patient" Type="DSAModel.Store.Patients" Multiplicity="1" />
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Patient_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InterventionLocation">
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <End Role="Location" Type="DSAModel.Store.Locations" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Location_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MaterialIntervention">
+    <End Role="Material" Type="DSAModel.Store.Materials" Multiplicity="0..1" />
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Material_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InterventionDateHourDetails">
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <End Role="DateHourDetails" Type="DSAModel.Store.DateHourDetails" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="DateHourDetails">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="DateHourDetail_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AreaIntervention">
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <End Role="Area" Type="DSAModel.Store.Areas" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Area_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InterventionRevenue">
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <End Role="Revenue" Type="DSAModel.Store.Revenues" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Revenue">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Revenue_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InterventionWork">
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <End Role="Work" Type="DSAModel.Store.Works" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Work">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Work_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="YearIntervention">
+    <End Role="Year" Type="DSAModel.Store.Years" Multiplicity="1" />
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Year">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Year_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MonthIntervention">
+    <End Role="Month" Type="DSAModel.Store.Months" Multiplicity="1" />
+    <End Role="Intervention" Type="DSAModel.Store.Interventions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Month">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Intervention">
+        <PropertyRef Name="Month_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B925EB8F-0098-436D-944C-B5455E46EFE2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSA.Module.DentalRecords</RootNamespace>
+    <AssemblyName>DSA.Module.DentalRecords</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Data.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2.Extensions">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Core">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Extensions">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.DXStyle.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v12.2">
+      <HintPath>..\..\..\..\..\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\DSA.Common.Controls\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Office\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.MefExtensions">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.DataGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=2.3.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\work\TULIP-tora\trunk\References\xceed.wpf\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DentalRecordsInit.cs" />
+    <Compile Include="DentalRecordsScreen\DentalRecordsScreenView.xaml.cs">
+      <DependentUpon>DentalRecordsScreenView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DentalRecordsScreen\DentalRecordsScreeViewModel.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Filters\FilterItem\FilterItemView.xaml.cs">
+      <DependentUpon>FilterItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterItem\FilterItemViewModel.cs" />
+    <Compile Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileView.xaml.cs">
+      <DependentUpon>SelectedItemTileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileViewModel.cs" />
+    <Compile Include="Filters\FiltersView.xaml.cs">
+      <DependentUpon>FiltersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FiltersViewModel.cs" />
+    <Compile Include="Helpers\Duration.cs" />
+    <Compile Include="Helpers\ExcelParser.cs" />
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="Helpers\FilterTypes.cs" />
+    <Compile Include="Helpers\HourAsString.cs" />
+    <Compile Include="Helpers\Percent.cs" />
+    <Compile Include="Interventions\AddInterventionTile\AddInterventionTileView.xaml.cs">
+      <DependentUpon>AddInterventionTileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\AddInterventionTile\AddInterventionTileViewModel.cs" />
+    <Compile Include="Interventions\InterventionsGeneralDetails\BirthDays\BirthdaysView.xaml.cs">
+      <DependentUpon>BirthdaysView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\InterventionsGeneralDetails\BirthDays\BirthDaysViewModel.cs" />
+    <Compile Include="Interventions\InterventionsGeneralDetails\InterventionsGeneralDetailsView.xaml.cs">
+      <DependentUpon>InterventionsGeneralDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\InterventionsGeneralDetails\InterventionsGeneralDetailsViewModel.cs" />
+    <Compile Include="Interventions\InterventionsList\InterventionMonthControl\MonthInterventionsVIew.xaml.cs">
+      <DependentUpon>MonthInterventionsVIew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\InterventionsList\InterventionMonthControl\MonthInterventionsViewModel.cs" />
+    <Compile Include="Interventions\InterventionsList\InterventionYearControl\YearInterventionsView.xaml.cs">
+      <DependentUpon>YearInterventionsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\InterventionsList\InterventionYearControl\YearInterventionsViewModel.cs" />
+    <Compile Include="Interventions\InterventionsList\InterventionYearControl\YearList\YearListView.xaml.cs">
+      <DependentUpon>YearListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interventions\InterventionsList\InterventionYearControl\YearList\YearListViewModel.cs" />
+    <Compile Include="Options\DisplayOptions\DisplayOptionsView.xaml.cs">
+      <DependentUpon>DisplayOptionsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Options\DisplayOptions\DisplayOptionsViewModel.cs" />
+    <Compile Include="Options\OperationOptions\OperationOptionsView.xaml.cs">
+      <DependentUpon>OperationOptionsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Options\OperationOptions\OperationOptionsViewModel.cs" />
+    <Compile Include="Options\UploadInterventionsFIle\UploadInterventionsFileView.xaml.cs">
+      <DependentUpon>UploadInterventionsFileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Options\UploadInterventionsFIle\UploadInterventionsFileViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tooth\Intervention\InterventionView.xaml.cs">
+      <DependentUpon>InterventionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tooth\Intervention\InterventionViewModel.cs" />
+    <Compile Include="Tooth\ToothDetails\ToothDetailsView.xaml.cs">
+      <DependentUpon>ToothDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tooth\ToothDetails\ToothDetailsViewModel.cs" />
+    <Compile Include="Tooth\ToothTileList\ToothTileListView.xaml.cs">
+      <DependentUpon>ToothTileListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tooth\ToothTileList\ToothTileListViewModel.cs" />
+    <Compile Include="Tooth\ToothTile\ToothTileView.xaml.cs">
+      <DependentUpon>ToothTileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tooth\ToothTile\ToothTileViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DentalRecordsScreen\DentalRecordsScreenView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filters\FilterItem\FilterItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filters\FiltersView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\AddInterventionTile\AddInterventionTileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\InterventionsGeneralDetails\BirthDays\BirthdaysView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\InterventionsGeneralDetails\InterventionsGeneralDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\InterventionsList\InterventionMonthControl\MonthInterventionsVIew.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\InterventionsList\InterventionYearControl\YearInterventionsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interventions\InterventionsList\InterventionYearControl\YearList\YearListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Options\DisplayOptions\DisplayOptionsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Options\OperationOptions\OperationOptionsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Options\UploadInterventionsFIle\UploadInterventionsFileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tooth\Intervention\InterventionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tooth\ToothDetails\ToothDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tooth\ToothTileList\ToothTileListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tooth\ToothTile\ToothTileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\DSA.Common.Controls\DSA.Common.Controls.csproj">
+      <Project>{31F537E0-57EB-4962-99C8-F9793315FFDD}</Project>
+      <Name>DSA.Common.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Common\DSA.Common.Infrastructure\DSA.Common.Infrastructure.csproj">
+      <Project>{EDD4730D-BAC5-4D75-B556-C70C8BFD736B}</Project>
+      <Name>DSA.Common.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Common\DSA.FileUpload\DSA.FileUpload.csproj">
+      <Project>{d568745d-4033-44b5-b59a-8dcebfa7b7ed}</Project>
+      <Name>DSA.FileUpload</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSA.Database.Model\DSA.Database.Model.csproj">
+      <Project>{e71be83d-e64a-4d52-97ab-0ab7482363f7}</Project>
+      <Name>DSA.Database.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSA.Module.PersonalData\DSA.Module.Settings.csproj">
+      <Project>{3773B378-5D13-414A-8586-BAD50F1B5CD3}</Project>
+      <Name>DSA.Module.Settings</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

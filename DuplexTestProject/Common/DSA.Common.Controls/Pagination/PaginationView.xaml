@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Survey.Common.Controls.Pagination.PaginationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:listItemButton="clr-namespace:DSA.Common.Controls.Buttons.ListItemButton"
+             xmlns:icos="clr-namespace:DSA.Common.Infrastructure.Icos;assembly=DSA.Common.Infrastructure"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Button VerticalAlignment="Center"  VerticalContentAlignment="Center"  Grid.Column="0" Height="20" Command="{Binding PrevCommand}">
+            <icos:CloseOpenArrow />
+        </Button>
+            <ItemsControl Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" ItemsSource="{Binding PageItemsList.List}"
+                              ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <listItemButton:ListItemButtonView/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        <Button VerticalAlignment="Center" Grid.Row="0"  VerticalContentAlignment="Center" Grid.Column="2" Height="20" Command="{Binding NextCommand}">
+            <icos:GreaterIcon/>
+        </Button>
+
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Questions Per Page:" VerticalAlignment="Center"/>
+            <dxe:ComboBoxEdit Grid.Column="1" AutoComplete="True" Margin="20,0,20,0" 
+                          FontFamily="Candara" FontSize="16" Foreground="#FF434D59"
+                          Background="#FFE7E8EA" BorderThickness="1"
+                          BorderBrush="#FFE7E8EA"
+                          ItemsSource="{Binding QPerPageList}" Text="{Binding QuestionsPerPage,Mode=TwoWay}" 
+                            VerticalAlignment="Center" ImmediatePopup="True"
+                          dx:ThemeManager.ThemeName="MetropolisLight">
+            </dxe:ComboBoxEdit>
+        </Grid>           
+    </Grid>
+</UserControl>

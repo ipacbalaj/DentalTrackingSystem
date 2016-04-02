@@ -1,0 +1,13 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Closed="MainWindow_OnClosed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="{Binding ConnectionStatus}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Background="#FFFFAE00" FontWeight="Bold"/>
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Collection}"/>
+    </Grid>
+</Window>

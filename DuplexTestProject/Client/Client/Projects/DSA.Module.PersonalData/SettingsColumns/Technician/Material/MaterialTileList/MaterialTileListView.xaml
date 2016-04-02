@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="DSA.Module.PersonalData.SettingsColumns.Technician.Material.MaterialTileList.MaterialTileListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialTile="clr-namespace:DSA.Module.PersonalData.SettingsColumns.Technician.Material.MaterialTile"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+ 
+             mc:Ignorable="d" Name="this"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Border CornerRadius="5" BorderThickness="0 0.5 0.5 0.5" BorderBrush="Black" Background="{Binding ContentBackground}">
+    <Grid Margin="10"> 
+       <Grid.RowDefinitions>
+           <RowDefinition Height="*"/>
+           <RowDefinition Height="Auto"/>
+       </Grid.RowDefinitions>
+            <ScrollViewer Name="scrollViewerMatTiles" Grid.Row="0" VerticalScrollBarVisibility="Auto">
+        <ItemsControl VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ItemsSource="{Binding Materials}" 
+                              >
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Vertical"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate >
+                <DataTemplate>
+                    <materialTile:MaterialTileView Margin="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+                </ScrollViewer>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Background="{Binding StackColor}">
+                <StackPanel   HorizontalAlignment="Right" Orientation="Horizontal">
+                    <buttons:ActionButtonView   Margin="10 3 10 3" MinHeight="30" Width="120" HorizontalAlignment="Right"   DataContext="{Binding SaveButton}"/>
+                    <buttons:ActionButtonView  Margin="10 3 10 3" MinHeight="30" Width="120" HorizontalAlignment="Right"  Visibility="{Binding ElementName=this, Path=DataContext.AddButtonVisibility}"   DataContext="{Binding AddMaterialButton}"/>
+                </StackPanel>
+            </Border>
+           
+    </Grid>
+    </Border>
+</UserControl>

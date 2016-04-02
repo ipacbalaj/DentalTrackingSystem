@@ -1,0 +1,20 @@
+﻿DSA.Module.DentalRecords
+
+
+library
+C#
+.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Module.DentalRecords\obj\Debug\
+DSA.Module.DentalRecords
+none
+false
+DEBUG;TRACE
+
+161355758914
+
+44-107834044
+44205134411
+DentalRecordsScreen\DentalRecordsScreenView.xaml;Filters\FilterItem\FilterItemView.xaml;Filters\FilterItem\SelectedItemTile\SelectedItemTileView.xaml;Filters\FiltersView.xaml;Interventions\AddInterventionTile\AddInterventionTileView.xaml;Interventions\InterventionsGeneralDetails\InterventionsGeneralDetailsView.xaml;Interventions\InterventionsList\InterventionMonthControl\MonthInterventionsVIew.xaml;Interventions\InterventionsList\InterventionYearControl\YearInterventionsView.xaml;Interventions\InterventionsList\InterventionYearControl\YearList\YearListView.xaml;Options\DisplayOptions\DisplayOptionsView.xaml;Options\OperationOptions\OperationOptionsView.xaml;Options\UploadInterventionsFIle\UploadInterventionsFileView.xaml;Tooth\Intervention\InterventionView.xaml;Tooth\ToothDetails\ToothDetailsView.xaml;Tooth\ToothTileList\ToothTileListView.xaml;Tooth\ToothTile\ToothTileView.xaml;
+
+False
+

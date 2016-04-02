@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="DSA.Reports.ReportsScreen.ReportsScreenView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             mc:Ignorable="d" dx:ThemeManager.ThemeName="MetropolisLight"
+             d:DesignHeight="1000" d:DesignWidth="300">
+    <Border Background="{Binding ContentBackground}">
+    <Grid Margin="10">
+            <dxg:GridControl Background="{Binding TtableBack}"  dx:DXSerializer.SerializationID="grid"                          
+                         dx:DXSerializer.StoreLayoutMode="All"
+                         dxg:GridSerializationOptions.AddNewColumns="False" 
+                         dxg:GridSerializationOptions.RemoveOldColumns="False"                            
+                         ItemsSource="{Binding ReportsInterventions}"  AutoPopulateColumns="False" Name="ViewPatientGrid" 
+                           VerticalAlignment="Stretch" AutoExpandAllGroups="True">
+            <dxg:GridControl.View>
+                <dxg:TableView Name="tableView12" AllowResizing="True" PrintTotalSummary="True" GroupSummaryDisplayMode="Default" ShowGroupPanel="False" AllowBestFit="True" AutoWidth="True" ShowTotalSummary="True" BestFitMode="AllRows" Width="Auto">
+                    <dxg:TableView.RowStyle>
+                        <Style TargetType="{x:Type dxg:GridRowContent}">
+                            <Setter Property="Background" Value="{Binding Row.Brush}"/>
+                        </Style>
+                    </dxg:TableView.RowStyle>
+                </dxg:TableView>
+           
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True"  AllowBestFit="True" FieldName="PacientName" Header="Nume"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Date" Header="Data"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Location" Header="Locatie"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Work" Header="Manopera"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Material" Header="Material"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Area" Header="Zona"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Observations" Header="Observatii"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="StartH" Header="Ora inceput"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Durata" Header="Durata">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings Mask="HH:mm" MaskType="DateTime" MaskUseAsDisplayFormat="True"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="EndH" Header="Ora sfarsit"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Revenue" Header="Incasari"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="Percent" Header="Procent"/>
+            </dxg:GridControl.Columns>
+            
+            <dxg:GridControl.TotalSummary>
+<!--                <dxg:GridSummaryItem FieldName="PacientName"   SummaryType="Count"  DisplayFormat="({0})" />                -->
+<!--                <dxg:GridSummaryItem FieldName="Percent" SummaryType="Sum" DisplayFormat=" {0:c2}" />-->
+<!--                <dxg:GridSummaryItem FieldName="Durata" SummaryType="Sum" DisplayFormat=" {0:c1}" />-->
+<!--                <dxg:GridSummaryItem FieldName="Revenue" SummaryType="Sum" DisplayFormat=" {0:c2}" />-->
+<!---->
+                <dxg:GridSummaryItem FieldName="Work"   SummaryType="Count" DisplayFormat="Numar interventii: ({0} )" />
+                <dxg:GridSummaryItem FieldName="Percent" SummaryType="Sum" DisplayFormat="Procent Total: {0:n2}" />
+                <dxg:GridSummaryItem FieldName="Durata" SummaryType="Sum" DisplayFormat="Ore Lucrate: {0:hh\\:mm} days" />
+                <dxg:GridSummaryItem FieldName="Revenue" SummaryType="Sum" DisplayFormat="Total Incasari: {0:n2}" />
+            </dxg:GridControl.TotalSummary>
+        </dxg:GridControl>
+    </Grid>
+        </Border>
+</UserControl>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{303157E9-A248-4BB7-8CB7-EB39B107623B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSA.Filters</RootNamespace>
+    <AssemblyName>DSA.Filters</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Data.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Printing.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Utils.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2.UI">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Utils.v12.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2.Extensions, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Core">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Extensions">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Printing.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Scheduler.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.DXStyle.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraBars.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraGrid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.2">
+      <HintPath>D:\c#\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraLayout.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.MefExtensions">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\..\..\..\..\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="FilterGroup\FilterGroupView.xaml.cs">
+      <DependentUpon>FilterGroupView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FilterGroup\FilterGroupViewModel.cs" />
+    <Compile Include="FiltersInit.cs" />
+    <Compile Include="FiltersScreen\FiltersScreenView.xaml.cs">
+      <DependentUpon>FiltersScreenView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FiltersScreen\FIltersScreenViewModel.cs" />
+    <Compile Include="Filters\FilterItem\FilterItemView.xaml.cs">
+      <DependentUpon>FilterItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterItem\FilterItemViewModel.cs" />
+    <Compile Include="Filters\FilterItem\IntervalFilterItem\IntervalFilterItemVew.xaml.cs">
+      <DependentUpon>IntervalFilterItemVew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterItem\IntervalFilterItem\IntervalFilterItemViewModel.cs" />
+    <Compile Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileView.xaml.cs">
+      <DependentUpon>SelectedItemTileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileViewModel.cs" />
+    <Compile Include="Filters\FiltersView.xaml.cs">
+      <DependentUpon>FiltersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FiltersViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\DSA.Common.Controls\DSA.Common.Controls.csproj">
+      <Project>{31F537E0-57EB-4962-99C8-F9793315FFDD}</Project>
+      <Name>DSA.Common.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Common\DSA.Common.Infrastructure\DSA.Common.Infrastructure.csproj">
+      <Project>{edd4730d-bac5-4d75-b556-c70c8bfd736b}</Project>
+      <Name>DSA.Common.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSA.Database.Model\DSA.Database.Model.csproj">
+      <Project>{e71be83d-e64a-4d52-97ab-0ab7482363f7}</Project>
+      <Name>DSA.Database.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="FilterGroup\FilterGroupView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FiltersScreen\FiltersScreenView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filters\FilterItem\FilterItemView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Filters\FilterItem\IntervalFilterItem\IntervalFilterItemVew.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Filters\FilterItem\SelectedItemTile\SelectedItemTileView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Filters\FiltersView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="ClientShell.Views.Tabs.ListView.LeftListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:core="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+             core:ThemeManager.ThemeName="MetropolisLight"
+             mc:Ignorable="d" 
+             Name="this"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Viewbox Margin="5" Grid.Row="0">
+            <Image  Source="{Binding Path=ImagePath}" />
+        </Viewbox>
+<!--        <Border Grid.Row="1" BorderBrush="SlateGray" BorderThickness="0.7" Margin="5 0 5 0"></Border>-->
+        <TextBlock Margin="1 0 0 0" Grid.Row="1" VerticalAlignment="Center" FontWeight="SemiBold" Background="Transparent" Foreground="Black" FontSize="17" Text="{Binding SelectedPatientName}"></TextBlock>
+        <Grid Margin="-4 0 0 0" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+<!--                <ColumnDefinition Width="Auto"/>-->
+            </Grid.ColumnDefinitions>
+            <TextBox Margin="5" Grid.Column="0" VerticalAlignment="Center" FontSize="14" Text="{Binding SearchedItem ,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <!--            <buttons:ActionButtonView Grid.Column="2" DataContext="{Binding AddPatientButton}"/>-->
+            <!--            <icons:AnalyzeIcon Grid.Column="2"/>-->
+            <Viewbox Margin="5" Grid.Column="1">
+                <Image  Source="{Binding Path=SearchImagePath}" />
+            </Viewbox>
+        </Grid>
+        <dxg:GridControl MouseDoubleClick="ViewPatientGrid_OnMouseDoubleClick" Grid.Row="3"  core:DXSerializer.SerializationID="grid"                    
+                         core:DXSerializer.StoreLayoutMode="All" MaxHeight="800"
+                         dxg:GridSerializationOptions.AddNewColumns="False" 
+                         dxg:GridSerializationOptions.RemoveOldColumns="False"    
+                         Name="patiendsGRid"
+                         ItemsSource="{Binding CurrentPatients}"  AutoPopulateColumns="False" 
+                           VerticalAlignment="Stretch" AutoExpandAllGroups="True">
+            <dxg:GridControl.View >
+
+                <dxg:TableView  VerticalScrollbarVisibility="Visible" NavigationStyle="Cell" ShowHorizontalLines="True"  Name="tableView1"  ShowTotalSummary="False"  AutoWidth="True" ShowGroupPanel="False"
+                               FocusedRow="{Binding SelectedPatient, Mode=TwoWay}">
+                    
+                    <dxg:TableView.RowStyle>
+                        <Style TargetType="{x:Type dxg:GridRowContent}">
+                            <Setter Property="Background" Value="{Binding Row.Brush}"/>
+                        </Style>
+                    </dxg:TableView.RowStyle>
+
+                    <dxg:TableView.CellStyle>
+                        <Style TargetType="dxg:CellContentPresenter">
+                            <Style.Triggers>
+                                <Trigger Property="dxg:DataViewBase.IsFocusedCell" Value="True">
+                                    <Setter Property="Background" Value="#ADC0C0 "/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </dxg:TableView.CellStyle>
+                    
+                </dxg:TableView>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns >
+                <!--            <dxg:GridColumn AllowEditing="False" FieldName="Name" Header="Name"/>-->
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True"   FieldName="AllName" Header="Nume si Prenume Pacient"/>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+        <buttons:ActionButtonView Margin="0 0 0 0" MaxWidth="100" MaxHeight="200" Visibility="{Binding ElementName=this, Path=DataContext.MergeButtonVisibility}" Grid.Row="4" DataContext="{Binding OnMergePatientsButton}"/>
+        <Grid Visibility="{Binding MergePatientsVisibility}"  Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+<!--                <RowDefinition/>-->
+            </Grid.RowDefinitions>
+            <dxg:GridControl Grid.Row="0"  core:DXSerializer.SerializationID="grid"                    
+                         core:DXSerializer.StoreLayoutMode="All" MaxHeight="800"
+                         dxg:GridSerializationOptions.AddNewColumns="False" 
+                         dxg:GridSerializationOptions.RemoveOldColumns="False"                        
+                         ItemsSource="{Binding PatientsToMerge}"  AutoPopulateColumns="False" 
+                           VerticalAlignment="Stretch" AutoExpandAllGroups="True">
+                <dxg:GridControl.View >
+
+                    <dxg:TableView RowDoubleClick="MergePat_OnRowDoubleClick" VerticalScrollbarVisibility="Visible" NavigationStyle="Cell" ShowHorizontalLines="True"  Name="mergePat"  ShowTotalSummary="False"  AutoWidth="True" ShowGroupPanel="False"
+                               FocusedRow="{Binding SelectedPatientMerge, Mode=TwoWay}">
+
+                        <dxg:TableView.RowStyle>
+                            <Style TargetType="{x:Type dxg:GridRowContent}">
+                                <Setter Property="Background" Value="{Binding Row.Brush}"/>
+                            </Style>
+                        </dxg:TableView.RowStyle>
+
+                        <dxg:TableView.CellStyle>
+                            <Style TargetType="dxg:CellContentPresenter">
+                                <Style.Triggers>
+                                    <Trigger Property="dxg:DataViewBase.IsFocusedCell" Value="True">
+                                        <Setter Property="Background" Value="#ADC0C0 "/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </dxg:TableView.CellStyle>
+
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+                <dxg:GridControl.Columns >
+                    <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True"   FieldName="AllName" Header="Îmbinare paciențti"/>
+                </dxg:GridControl.Columns>
+            </dxg:GridControl>
+            <StackPanel Margin="21 0 0 0" Grid.Row="1" Orientation="Horizontal">
+                <buttons:ActionButtonView Margin="0 0 -5 0" MaxHeight="200" MaxWidth="100" Grid.Row="1" DataContext="{Binding MergePatientsButton}"/>
+                <buttons:ActionButtonView MaxHeight="200" MaxWidth="100" Grid.Row="2" DataContext="{Binding CancelMergePatientsButton}"/>
+            </StackPanel>
+        </Grid>       
+    </Grid>
+</UserControl>

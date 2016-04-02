@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="DSA.Filters.Filters.FilterItem.SelectedItemTile.SelectedItemTileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+             mc:Ignorable="d" 
+             Name="this"
+             d:DesignHeight="40" d:DesignWidth="300">
+    <Border MinHeight="30" Background="Transparent" BorderBrush="SlateGray" Margin="3 0 0 0" MouseEnter="UIElement_OnMouseEnter" MouseLeftButtonUp="UIElement_OnMouseLeftButtonUp" MouseLeave="UIElement_OnMouseLeave">
+        <Grid>
+<!--            <CheckBox Margin="3 0 3 0" IsChecked="{Binding IsChecked}" Grid.Column="0" VerticalAlignment="Center"/>-->
+            <TextBlock Margin="5 0 0 0" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontWeight="SemiBold" >
+                <Run Text="{Binding Symbol}" />
+                <Run Foreground="{Binding ForegroundColor}" Text="{Binding Name}"/>
+                </TextBlock>
+<!--            <buttons:ActionButtonView Grid.Column="0"  Visibility="{Binding ElementName=this, Path=DataContext.DeleteBtnVisibility}"  DataContext="{Binding DeleteBtn}"/>-->
+        </Grid>
+    </Border>
+
+</UserControl>

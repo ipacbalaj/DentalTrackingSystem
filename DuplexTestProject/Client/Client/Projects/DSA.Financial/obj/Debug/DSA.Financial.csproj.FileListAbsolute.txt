@@ -1,0 +1,290 @@
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+C:\Users\ionut\Dropbox\Poli\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+D:\c#\DTS.v1\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+E:\Dental Tracking System\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+D:\c#\v1\DentalTrackingSystem\DTS\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\v2\finalProject\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\log4net.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\log4net.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Core.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Prism.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\Microsoft.Practices.Unity.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Printing.v12.2.xml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+D:\c#\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DocX.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\log4net.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Data.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Printing.v12.2.Core.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Utils.v12.2.UI.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.Xpf.Grid.v12.2.Core.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraBars.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DevExpress.XtraEditors.v12.2.xml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GenerateTablereqInfo\GenerateTableInfoView.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GenerateTablereqInfo\GenerateTableInfoView.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.lref
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+C:\Users\ionut\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Financial.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DocX.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Controls.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Common.Infrastructure.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\bin\Debug\DSA.Database.Model.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.csprojResolveAssemblyReference.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GenerateTablereqInfo\GenerateTableInfoView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GenerateTablereqInfo\GenerateTableInfoView.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial_MarkupCompile.lref
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\FinancialScreen\FinancialScreenView.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.g.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.dll
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\Projects\DSA.Financial\obj\Debug\DSA.Financial.pdb

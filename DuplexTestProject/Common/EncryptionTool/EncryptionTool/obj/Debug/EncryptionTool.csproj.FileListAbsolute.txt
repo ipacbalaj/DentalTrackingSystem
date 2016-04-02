@@ -1,0 +1,13 @@
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\bin\Debug\EncryptionTool.exe.config
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\bin\Debug\EncryptionTool.exe
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\bin\Debug\EncryptionTool.pdb
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.csprojResolveAssemblyReference.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\MainWindow.baml
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\MainWindow.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\App.g.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool_MarkupCompile.cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.g.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.Properties.Resources.resources
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.csproj.GenerateResource.Cache
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.exe
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Common\EncryptionTool\EncryptionTool\obj\Debug\EncryptionTool.pdb

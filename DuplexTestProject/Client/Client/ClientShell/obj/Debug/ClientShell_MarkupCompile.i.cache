@@ -1,0 +1,20 @@
+﻿ClientShell
+
+
+winexe
+C#
+.cs
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\ClientShell\obj\Debug\
+ClientShell
+none
+false
+DEBUG;TRACE
+C:\Users\Pac-Balaj ionutzela2\Dropbox\DentalTrackingSystem\DTS.V3\DuplexTestProject\Client\Client\ClientShell\App.xaml
+91699270750
+
+26521722052
+542146571168
+Styles\Buttons.xaml;Views\PatientsList\PatientListItem\PatientListItemView.xaml;Views\PatientsList\PatientListView.xaml;Views\Shell\ClientShellView.xaml;Views\Tabs\HorizontalTabs\HorizontalTabsView.xaml;Views\Tabs\HorizontalTab\HorizontalTabView.xaml;Views\Tabs\ListView\LeftListView.xaml;Views\Tabs\ListView\Patient\PatientView.xaml;Views\Tiles\PatientTileView.xaml;
+
+True
+

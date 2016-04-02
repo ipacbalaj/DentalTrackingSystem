@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="DSA.Module.DentalRecords.DentalRecordsScreen.DentalRecordsScreenView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:addInterventionTile="clr-namespace:DSA.Module.DentalRecords.Interventions.AddInterventionTile"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+             xmlns:options="clr-namespace:DSA.Common.Controls.Options;assembly=DSA.Common.Controls"
+             xmlns:yearList="clr-namespace:DSA.Module.DentalRecords.Interventions.InterventionsList.InterventionYearControl.YearList"
+             mc:Ignorable="d"              dx:ThemeManager.ThemeName="MetropolisLight" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             KeyUp="DentalRecordsScreenView_OnKeyUp"
+             >
+    <Border Background="{Binding ContentBackground}" Name="detalrecGrid">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+<!--        <toothTileList:ToothTileListView  DataContext="{Binding ToothTileListViewModel}"/>-->
+        <Grid Margin="5 0 5 0" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                
+            </Grid.RowDefinitions>
+            <addInterventionTile:AddInterventionTileView Margin="5 10 5 10" Grid.Row="0" DataContext="{Binding AddInterventionTileViewModel}" />
+                <yearList:YearListView MaxWidth="{Binding Path=ActualWidth,ElementName=detalrecGrid}" Margin="5 0 5 0" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"  Grid.Row="1" DataContext="{Binding YearListViewModel}"/>
+        </Grid>
+        <options:OptionsView Margin="0 5 0 5" Grid.Column="1" DataContext="{Binding OptionsViewModel}"/>
+    </Grid>
+    </Border>
+</UserControl>

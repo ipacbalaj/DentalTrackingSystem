@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="DSA.Filters.FilterGroup.FilterGroupView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+             xmlns:filters="clr-namespace:DSA.Filters.Filters"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             dx:ThemeManager.ThemeName="MetropolisLight"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Border Visibility="{Binding AddGroupTileVisibility}" CornerRadius="5" Background="LightGray" Margin="0 2 0 2" BorderBrush="SlateGray" BorderThickness="0.7"  Grid.Row="0">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Nume Grup:" FontWeight="SemiBold" FontSize="18" Margin="10 0 20 0" VerticalAlignment="Center"></TextBlock>
+                <TextBox VerticalAlignment="Center" FontSize="16" FontWeight="SemiBold" Grid.Column="1" Text="{Binding GroupName}" Margin="5"></TextBox>
+                <Viewbox Grid.Column="2">
+                    <buttons:ActionButtonView  HorizontalAlignment="Right" DataContext="{Binding SaveGroupButton}"/>
+                </Viewbox>
+                <Viewbox Grid.Column="3">
+                    <buttons:ActionButtonView  HorizontalAlignment="Right" DataContext="{Binding CancelGroupButton}"/>
+                </Viewbox>
+            </Grid>
+        </Border>
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Stretch"  VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl Margin="2 0 2 0"  DataContext="{Binding FiltersViewModels.List}" ItemsSource="{Binding}" HorizontalAlignment="Stretch">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Vertical"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <filters:FiltersView Margin="4 1 4 1"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+            </ScrollViewer>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <buttons:ActionButtonView HorizontalAlignment="Right" Width="100" DataContext="{Binding AddGroupButton}"/>
+            <buttons:ActionButtonView HorizontalAlignment="Right" Width="100" DataContext="{Binding SaveBtn}"/>            
+        </StackPanel>        
+    </Grid>
+    
+</UserControl>

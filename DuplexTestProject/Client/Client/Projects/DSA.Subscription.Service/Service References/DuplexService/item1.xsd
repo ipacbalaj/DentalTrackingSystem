@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" />
+  <xs:import schemaLocation="http://localhost:8733/DuplexService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfLocalPatient">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalPatient" nillable="true" type="tns:LocalPatient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalPatient" nillable="true" type="tns:ArrayOfLocalPatient" />
+  <xs:complexType name="LocalPatient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Interventions" nillable="true" type="tns:ArrayOfLocalIntervention" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalPatient" nillable="true" type="tns:LocalPatient" />
+  <xs:complexType name="ArrayOfLocalIntervention">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalIntervention" nillable="true" type="tns:LocalIntervention" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalIntervention" nillable="true" type="tns:ArrayOfLocalIntervention" />
+  <xs:complexType name="LocalIntervention">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" minOccurs="0" name="Area" nillable="true" type="q1:LocalArea" />
+      <xs:element minOccurs="0" name="DateHourDetail" nillable="true" type="tns:LocalDateHourDetail" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" minOccurs="0" name="Location" nillable="true" type="q2:LocalLocation" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" minOccurs="0" name="Lucrare" nillable="true" type="q3:LocalWork" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DSA.Database.Model.Entities.SettingsEntities" minOccurs="0" name="Material" nillable="true" type="q4:LocalMaterial" />
+      <xs:element minOccurs="0" name="Observation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Revenue" nillable="true" type="tns:LocalRevenue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalIntervention" nillable="true" type="tns:LocalIntervention" />
+  <xs:complexType name="LocalDateHourDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Duration" type="ser:duration" />
+      <xs:element minOccurs="0" name="EndingHour" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="StartHour" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalDateHourDetail" nillable="true" type="tns:LocalDateHourDetail" />
+  <xs:complexType name="LocalRevenue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalRevenue" nillable="true" type="tns:LocalRevenue" />
+  <xs:complexType name="LocalAppointment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateHour" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="PatientId" type="xs:int" />
+      <xs:element minOccurs="0" name="WeekNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="Year" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalAppointment" nillable="true" type="tns:LocalAppointment" />
+  <xs:complexType name="ArrayOfLocalWeek">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalWeek" nillable="true" type="tns:LocalWeek" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalWeek" nillable="true" type="tns:ArrayOfLocalWeek" />
+  <xs:complexType name="LocalWeek">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Days" nillable="true" type="tns:ArrayOfLocalDay" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="WeekNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="Year" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalWeek" nillable="true" type="tns:LocalWeek" />
+  <xs:complexType name="ArrayOfLocalDay">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalDay" nillable="true" type="tns:LocalDay" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalDay" nillable="true" type="tns:ArrayOfLocalDay" />
+  <xs:complexType name="LocalDay">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Appointments" nillable="true" type="tns:ArrayOfLocalAppointment" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalDay" nillable="true" type="tns:LocalDay" />
+  <xs:complexType name="ArrayOfLocalAppointment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalAppointment" nillable="true" type="tns:LocalAppointment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalAppointment" nillable="true" type="tns:ArrayOfLocalAppointment" />
+</xs:schema>

@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="DSA.Financial.FinancialScreen.FinancialScreenView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:buttons="clr-namespace:DSA.Common.Controls.Buttons;assembly=DSA.Common.Controls"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:generateTablereqInfo="clr-namespace:DSA.Financial.GenerateTablereqInfo"
+ 
+             mc:Ignorable="d"  dx:ThemeManager.ThemeName="MetropolisLight"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Margin="10" Background="{Binding ContentBackground}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+        <Border VerticalAlignment="Top"  CornerRadius="5" BorderBrush="Black" BorderThickness="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>                
+                <generateTablereqInfo:GenerateTableInfoView Grid.Row="0" DataContext="{Binding GenerateTableInfoViewModel}"/>
+                <buttons:ActionButtonView Margin="5" MinHeight="40" DataContext="{Binding GenerateButton}" Grid.Row="1" HorizontalAlignment="Right" Width="120"/>
+            </Grid>            
+        </Border>
+
+        <dxg:GridControl Visibility="{Binding ContentVisibility}" MaxHeight="800"  Grid.Row="1"  dx:DXSerializer.SerializationID="grid"                          
+                         dx:DXSerializer.StoreLayoutMode="All"
+                         dxg:GridSerializationOptions.AddNewColumns="False" 
+                         dxg:GridSerializationOptions.RemoveOldColumns="False"                            
+                         ItemsSource="{Binding FinancialEntities}"  AutoPopulateColumns="False" Name="ViewPatientGrid" 
+                           VerticalAlignment="Stretch" AutoExpandAllGroups="True">
+            <dxg:GridControl.View>
+                <dxg:TableView Name="tableView1" AllowResizing="True" ShowTotalSummary="True"   ShowGroupPanel="False" AllowBestFit="True" AutoWidth="True" BestFitMode="AllRows" Width="Auto"
+                              />
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns >
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="ProvidedServices" Header="Servicii Prestate"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="NumberOfProvServ" Header="Numar"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="DentalPrice" Header="Pret Cabinet"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="PriceDueToContract" Header="Pret conform contractului(%)"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="TotalPriceProvServ" Header="Total Prestari Servicii"/>
+                <dxg:GridColumn AllowEditing="False" AllowResizing="True" AllowBestFit="True" FieldName="TotalDueToContract" Header="Total conform contract(%)"/>
+            </dxg:GridControl.Columns>
+
+            <dxg:GridControl.TotalSummary>
+                <!--                <dxg:GridSummaryItem FieldName="PacientName"   SummaryType="Count"  DisplayFormat="({0})" />                -->
+                <!--                <dxg:GridSummaryItem FieldName="Percent" SummaryType="Sum" DisplayFormat=" {0:c2}" />-->
+                <!--                <dxg:GridSummaryItem FieldName="Durata" SummaryType="Sum" DisplayFormat=" {0:c1}" />-->
+                <!--                <dxg:GridSummaryItem FieldName="Revenue" SummaryType="Sum" DisplayFormat=" {0:c2}" />-->
+                <!---->
+                <dxg:GridSummaryItem FieldName="TotalPriceProvServ"   SummaryType="Sum" DisplayFormat="Total Prestari Servicii: ({0} )" />
+                <dxg:GridSummaryItem FieldName="TotalDueToContract" SummaryType="Sum" DisplayFormat="Total conform contract(%): {0:n2}" />
+                <dxg:GridSummaryItem FieldName="DentalPrice" SummaryType="Sum" DisplayFormat="Total Pret Cabinet: {0:n2}" />
+            </dxg:GridControl.TotalSummary>
+        </dxg:GridControl>
+        <buttons:ActionButtonView DataContext="{Binding GenerateWordDocButton}" Margin="5" Grid.Row="2" HorizontalAlignment="Right" Width="120" MinHeight="40"/>
+    </Grid>
+</UserControl>
