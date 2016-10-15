@@ -9,7 +9,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using ClientShell.Views.PatientsList;
+using ClientShell.Views.PatientsList.PatientListItem;
 using ClientShell.Views.Tabs.HorizontalTab;
+using ClientShell.Views.Tabs.HorizontalTabs;
+using ClientShell.Views.Tabs.ListView;
+using DSA.Common.Controls.Buttons;
+using DSA.Common.Controls.Loading.MetroLoading;
+using DSA.Common.Infrastructure.Prism.Regions;
+using DSA.Module.DentalRecords.Interventions.InterventionsGeneralDetails;
+using Microsoft.Practices.Prism.Regions;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -30,6 +39,7 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
+using TULIP.Common.Controls.Icons;
 
 
 namespace ClientShell.Views.Tabs.HorizontalTabs {
