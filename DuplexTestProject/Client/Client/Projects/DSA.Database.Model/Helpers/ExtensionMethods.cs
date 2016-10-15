@@ -45,7 +45,7 @@ namespace DSA.Database.Model.Helpers
             }
             return patient;
         }
-        public static Patient ToEntityPatient(this LocalPatient localPatient)
+        public static Patient ToEntityPatient(this LocalPatient localPatient,int userId)
         {
             return new Patient()
             {
@@ -55,7 +55,8 @@ namespace DSA.Database.Model.Helpers
                 Address = localPatient.Address,
                 City = localPatient.City,
                 Email = localPatient.Email,
-                Phone = localPatient.Phone
+                Phone = localPatient.Phone,
+                UserId = userId
             };
         }
         public static List<LocalPatient> ExcelToPatient(this Dictionary<String, List<string>> excelResult)

@@ -16,18 +16,13 @@ namespace ClientShell.Views.Shell
         {
             InitializeComponent();
             DataContext = activeClientShellViewModel;
-            
+
         }
 
-        private void ClientShellView_OnClosing(object sender, CancelEventArgs e)
+        private async void ClientShellView_OnClosing(object sender, CancelEventArgs e)
         {
             LocalCache.Instance.SaveDatabase();
-        }
-
-        private void ClientShellView_OnLoaded(object sender, RoutedEventArgs e)
-        {
-            var window = Window.GetWindow(this);
-            window.KeyDown += HandleKeyPress;
+            await ((ClientShellViewModel)DataContext).SaveDatabaseFileToFtp();
         }
 
         private void HandleKeyPress(object sender, KeyEventArgs e)
@@ -35,7 +30,7 @@ namespace ClientShell.Views.Shell
             //Do work
             if (Keyboard.IsKeyDown(Key.LeftShift))
             {
-                
+
             }
         }
     }

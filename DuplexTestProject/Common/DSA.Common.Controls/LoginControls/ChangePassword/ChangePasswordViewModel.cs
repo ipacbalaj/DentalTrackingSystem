@@ -303,11 +303,11 @@ namespace DSA.Common.Controls.LoginControls.ChangePassword
                 PasswordFieldsVisibility = Visibility.Collapsed;
                 CancelButtonVisibility=Visibility.Collapsed;
                 BorderLineVisibility = 0;
-                LocalUser localUser=new LocalUser();
-                localUser.Username = Email;
-                XmlSerializerHelper.SaveToXml(ViewConstants.appDataPath, localUser);
-                localUser.Password = Password;
-                DatabaseHandler.Instance.EditUser(localUser);
+
+                LocalCache.Instance.CurrentUser.Username = Email;
+                XmlSerializerHelper.SaveToXml(ViewConstants.appDataPath, LocalCache.Instance.CurrentUser);
+                LocalCache.Instance.CurrentUser.Password = Password;
+                DatabaseHandler.Instance.EditUser(LocalCache.Instance.CurrentUser);
                 {
                     DatabaseHandler.Instance.AddEditProgramInfo(new LocalProgramInfo()
                     {

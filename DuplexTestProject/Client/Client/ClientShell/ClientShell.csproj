@@ -109,6 +109,9 @@
     <Reference Include="DocX">
       <HintPath>..\packages\DocX.1.0.0.13\lib\net40\DocX.dll</HintPath>
     </Reference>
+    <Reference Include="edtFTPnet">
+      <HintPath>..\..\..\..\Resources\edtftpnet-2.2.3\bin\edtFTPnet.dll</HintPath>
+    </Reference>
     <Reference Include="Excel">
       <HintPath>..\..\..\..\Resources\devexpress\Excel.dll</HintPath>
     </Reference>
@@ -277,6 +280,10 @@
     <ProjectReference Include="..\..\..\Common\DSA.FileUpload\DSA.FileUpload.csproj">
       <Project>{D568745D-4033-44B5-B59A-8DCEBFA7B7ED}</Project>
       <Name>DSA.FileUpload</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common\DTS.FtpConnection\DTS.FtpConnection.csproj">
+      <Project>{26776D77-D1EF-464B-92C9-CB8989B8E882}</Project>
+      <Name>DTS.FtpConnection</Name>
     </ProjectReference>
     <ProjectReference Include="..\Projects\DSA.Database.Model\DSA.Database.Model.csproj">
       <Project>{e71be83d-e64a-4d52-97ab-0ab7482363f7}</Project>

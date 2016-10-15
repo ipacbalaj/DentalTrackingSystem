@@ -42,12 +42,13 @@ namespace DSA.Database.Model
 
         #region Patients
 
-        public async Task<List<LocalPatient>> GetPatients()
+        public async Task<List<LocalPatient>> GetPatients(int userId)
         {
             List<LocalPatient> localPatients = new List<LocalPatient>();
             using (dsaEntities dsaModel = new dsaEntities())
             {
-                foreach (var patient in dsaModel.Patients)
+                var userPatients = dsaModel.Patients.Where(item => item.UserId == userId);
+                foreach (var patient in userPatients)
                 {
                     localPatients.Add(patient.ToLocalPatient());
                 }
@@ -55,11 +56,11 @@ namespace DSA.Database.Model
             return localPatients;
         }
 
-        public async Task<int> AddPatient(LocalPatient localPatient)
+        public async Task<int> AddPatient(LocalPatient localPatient, int userId)
         {
             using (dsaEntities dsaModel = new dsaEntities())
             {
-                var patient = localPatient.ToEntityPatient();
+                var patient = localPatient.ToEntityPatient(userId);
                 dsaModel.Patients.AddObject(patient);
                 dsaModel.SaveChanges();
                 return patient.id;
@@ -372,7 +373,7 @@ namespace DSA.Database.Model
 
         #region Year
 
-        public List<LocalYear> GetLocalYears()
+        public List<LocalYear> GetLocalYears(int userId)
         {
             List<LocalYear> localYears = new List<LocalYear>();
             int currentYear = DateTime.Now.Year;
@@ -383,12 +384,16 @@ namespace DSA.Database.Model
                 {
                     foreach (var year in yearsEntity)
                     {
-                        localYears.Add(new LocalYear()
+                        var localYear = new LocalYear()
                         {
                             Id = year.Id,
                             YearNb = year.YearNb,
-                            Interventions = year.Interventions.Select(item => item.ToLocalIntervention()).ToList()
-                        });
+                            Interventions = year.Interventions.Where(item => item.UserId == userId).Select(item => item.ToLocalIntervention()).ToList()
+                        };
+                        if (localYear.Interventions.Any())
+                        {
+                            localYears.Add(localYear);
+                        }
                     }
 
                     return localYears;
@@ -427,11 +432,12 @@ namespace DSA.Database.Model
             }
 
         }
+
         #endregion Year
 
         #region Intervention
 
-        public int AddIntervention(LocalIntervention localIntervention)
+        public int AddIntervention(LocalIntervention localIntervention, int userId)
         {
             using (dsaEntities dsaModel = new dsaEntities())
             {
@@ -455,7 +461,7 @@ namespace DSA.Database.Model
                 }
                 else
                 {
-                    intervention = AddNewIntervention(localIntervention, intervention, dsaModel, year, patient);
+                    intervention = AddNewIntervention(localIntervention, intervention, dsaModel, year, patient, userId);
                 }
                 dsaModel.SaveChanges();
                 return intervention.Id;
@@ -463,7 +469,7 @@ namespace DSA.Database.Model
         }
 
         private Intervention AddNewIntervention(LocalIntervention localIntervention, Intervention intervention,
-            dsaEntities dsaModel, Year year, Patient patient)
+            dsaEntities dsaModel, Year year, Patient patient, int userId)
         {
             intervention = new Intervention()
             {
@@ -500,7 +506,8 @@ namespace DSA.Database.Model
                 Patient = patient,
                 Percent = localIntervention.Percent,
                 MaterialCost = localIntervention.MaterialCost,
-                TechnicianId = localIntervention.TechnicianId != 0 ? localIntervention.TechnicianId : null
+                TechnicianId = localIntervention.TechnicianId != 0 ? localIntervention.TechnicianId : null,
+                UserId = userId
             };
             dsaModel.Interventions.AddObject(intervention);
             return intervention;
@@ -1154,6 +1161,22 @@ namespace DSA.Database.Model
 
         #region Login
 
+        public List<LocalUser> GetUsers()
+        {
+            using (dsaEntities dsaModel = new dsaEntities())
+            {
+                var users = new List<LocalUser>();
+                foreach (var user in dsaModel.Users)
+                {
+                    users.Add(new LocalUser()
+                    {
+                        Id = user.Id,
+                        Username = user.username
+                    });
+                }
+                return users;
+            }
+        }
 
         public LoginResponse Login(string username, string password)
         {
@@ -1186,10 +1209,12 @@ namespace DSA.Database.Model
                         {
                             loginResponse.Description = "";
                             loginResponse.Status = LoginStatus.Successful;
+                            loginResponse.UserId = currentUser.Id;
                             XmlSerializerHelper.SaveToXml(ViewConstants.appDataPath, new LocalUser()
                             {
                                 Username = username
                             });
+
                         }
                         else
                         {
@@ -1236,14 +1261,14 @@ namespace DSA.Database.Model
             {
                 try
                 {
-                    var user = dsaModel.Users.FirstOrDefault();
+                    var user = dsaModel.Users.FirstOrDefault(item => item.Id == localUser.Id);
                     if (user != null)
                     {
                         user.username = localUser.Username;
                         user.password = EncryptString(localUser.Password);
                     }
                     dsaModel.SaveChanges();
-                    //    MessageBox.Show("Numele Utilizator si parola au fost moficate");
+                    MessageBox.Show("Numele Utilizator si parola au fost modificate");
                 }
                 catch (Exception)
                 {

@@ -48,6 +48,9 @@
     <Reference Include="DevExpress.XtraBars.v12.2">
       <HintPath>E:\Dental Tracking System\v2\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraBars.v12.2.dll</HintPath>
     </Reference>
+    <Reference Include="edtFTPnet">
+      <HintPath>..\..\..\..\..\Resources\edtftpnet-2.2.3\bin\edtFTPnet.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\ServiceLib\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>

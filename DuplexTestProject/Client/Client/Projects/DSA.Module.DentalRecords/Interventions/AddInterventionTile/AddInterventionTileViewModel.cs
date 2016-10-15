@@ -860,32 +860,8 @@ namespace DSA.Module.DentalRecords.Interventions.AddInterventionTile
             {
                 SelectedMaterial = Materials.FirstOrDefault(item => item.Id == SelectedInterventionDetails.LocalIntervention.Material.Id);
             }
-            //            if (SelectedInterventionDetails.LocalIntervention.MaterialTYpe != null)
-            //            {
-            //                SelectedMaterialType = MaterialTypes.FirstOrDefault(item => item.Id == SelectedInterventionDetails.LocalIntervention.MaterialTYpe.Id);
-            //                MaterialTypeVisibility = Visibility.Visible;
-            //                MaterialTypeColWidth = ViewConstants.DimenstionStar;
-            //
-            //            }
-            //            else
-            //            {
-            //                MaterialTypeVisibility = Visibility.Collapsed;
-            //                MaterialTypeColWidth = ViewConstants.DimenstionAuto;
-            //
-            //            }
             SelectedPatient = PatientsList.FirstOrDefault(item => item.Id == SelectedInterventionDetails.LocalIntervention.PatientId);
             SelectedWork = SelectedInterventionDetails.LocalIntervention.Lucrare != null ? Works.FirstOrDefault(item => item.Id == SelectedInterventionDetails.LocalIntervention.Lucrare.Id) : new LocalWork();
-            //            if (SelectedInterventionDetails.LocalIntervention.WorkType != null)
-            //            {
-            //                SelectedWorkType = WorkTypes.FirstOrDefault(item => item.Id == SelectedInterventionDetails.LocalIntervention.WorkType.Id);
-            //                WorkTypeVisibility = Visibility.Visible;
-            //                WorkTypeColWidth = ViewConstants.DimenstionStar;
-            //            }
-            //            else
-            //            {
-            //                WorkTypeVisibility = Visibility.Collapsed;
-            //                WorkTypeColWidth = ViewConstants.DimenstionAuto;
-            //            }
             Durata = SelectedInterventionDetails.Durata.TotalMinutes.ToString();
             Date = SelectedInterventionDetails.LocalIntervention.DateHourDetail.Date;
             StartingHour = SelectedInterventionDetails.LocalIntervention.DateHourDetail.StartHour;
@@ -931,10 +907,17 @@ namespace DSA.Module.DentalRecords.Interventions.AddInterventionTile
                 patient.Surname = patient.Surname.TrimEnd();
                 patient.AllName = patient.Surname + " " + patient.Name;
                 SelectedPatient = patient;
-                SelectedPatient.Id = await DatabaseHandler.Instance.AddPatient(SelectedPatient);
-                PatientsList.Add(SelectedPatient);
-                eventAggregator.GetEvent<PatientAddedEvent>().Publish(SelectedPatient);
-                LocalCache.Instance.PatientsRepository.Patients.Add(SelectedPatient);
+                try
+                {
+                    SelectedPatient.Id = await DatabaseHandler.Instance.AddPatient(SelectedPatient, LocalCache.Instance.CurrentUser.Id);
+                    PatientsList.Add(SelectedPatient);
+                    eventAggregator.GetEvent<PatientAddedEvent>().Publish(SelectedPatient);
+                    LocalCache.Instance.PatientsRepository.Patients.Add(SelectedPatient);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Eroare la salvare pacient");
+                }
 
             }
         }
@@ -989,7 +972,7 @@ namespace DSA.Module.DentalRecords.Interventions.AddInterventionTile
                 };
 
                 ChangeTotalInfo(intervention, IsInEditMode);
-                intervention.Id = DatabaseHandler.Instance.AddIntervention(intervention);
+                intervention.Id = DatabaseHandler.Instance.AddIntervention(intervention, LocalCache.Instance.CurrentUser.Id);
                 if (IsInEditMode)
                 {
                     LocalIntervention = intervention;

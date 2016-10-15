@@ -38,7 +38,7 @@ namespace ClientShell
             var fi = typeof(ConfigurationElement).GetField("_bReadOnly", BindingFlags.Instance | BindingFlags.NonPublic);
             fi.SetValue(settings, false);
             var efConfigString =
-                ConfigurationManager.ConnectionStrings["dsaEntities"].ConnectionString.Replace("AppData", Settings.Default.Databasepath);// Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+                ConfigurationManager.ConnectionStrings["dsaEntities"].ConnectionString.Replace("AppData",Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\DTS");
             if (efConfigString != null)
             {
                 ConfigurationManager.ConnectionStrings["dsaEntities"].ConnectionString = efConfigString;

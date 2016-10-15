@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Security;
@@ -35,7 +37,7 @@ namespace DSA.Login.Login
         ///  IEventAggregator Defines an interface to get instances of an event.
         /// </summary>
         private IEventAggregator eventAgg;
-       
+
         /// <summary>
         /// Initializes a new instance of the <see cref="LoginViewModel"/> class.
         /// We also create new instances of :<see cref="UsernameBarViewModel"/>,<see cref="PasswordBarViewModel"/>,
@@ -48,22 +50,14 @@ namespace DSA.Login.Login
         {
             eventAgg = ServiceLocator.Current.GetInstance<IEventAggregator>();
             ForgotPasswordCommand = new DelegateCommand(ChangeForgotPasswordVisibility);
-
-            UsernameBarViewModel = new UsernameBarViewModel();
-//            UsernameBarViewModel.Username = LocalAppSettings.GetBySettings(LocalAppSettings.Settings.Username);
-//            UsernameBarViewModel.Description = LocalAppSettings.GetBySettings(LocalAppSettings.Settings.UserRole); 
-
+            //UsernameBarViewModel = new UsernameBarViewModel();
             PasswordBarViewModel = new PasswordBarViewModel();
             ForgotPasswordViewModel = new ForgotPasswordViewModel();
             PasswordBarViewModel.LoginCommand = new DelegateCommand(Login);
-            //ForgotPasswordViewModel.ResetPasswordCommand = new DelegateCommand(ResetPassword);
-
             Background = BackgroundColors.BackgroundDarkColor;
             ControlsBackground = BackgroundColors.BackgroundLightColor;
-            ChangeUserFromFile();     
-            SetUsername();     
-//            eventAgg.GetEvent<UpdateConnectionStatusEvent>().Subscribe(OnUpdateConnectionStatus);
-//            OnUpdateConnectionStatus(BusinessStructure.Instance.ConnectionStatus);
+            ChangeUserFromFile();
+            SetLocalUsers();
         }
 
         #region Properties
@@ -87,7 +81,7 @@ namespace DSA.Login.Login
         /// <value>
         /// The username bar view model.
         /// </value>
-        public UsernameBarViewModel UsernameBarViewModel { get; set; }
+        //public UsernameBarViewModel UsernameBarViewModel { get; set; }
         /// <summary>
         /// Gets or sets the password bar view model.
         /// </summary>
@@ -181,7 +175,7 @@ namespace DSA.Login.Login
             }
         }
 
-        private string imagePath=Common.Infrastructure.ImagePath.DentistProfile;
+        private string imagePath = Common.Infrastructure.ImagePath.DentistProfile;
         public string ImagePath
         {
             get { return imagePath; }
@@ -247,6 +241,33 @@ namespace DSA.Login.Login
             }
         }
 
+        private ObservableCollection<LocalUser> users;
+        public ObservableCollection<LocalUser> Users
+        {
+            get { return users; }
+            set
+            {
+                if (value == users)
+                    return;
+                users = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private LocalUser selectedUser;
+
+        public LocalUser SelectedUser
+        {
+            get { return selectedUser; }
+            set
+            {
+                if (value == selectedUser)
+                    return;
+                selectedUser = value;
+                OnPropertyChanged();
+            }
+        }
+
         #endregion
 
 
@@ -257,12 +278,12 @@ namespace DSA.Login.Login
         /// </summary>
         public void Login()
         {
-            Log.Info("Try to login with Username = " + UsernameBarViewModel.Username);
+            Log.Info("Try to login with Username = " + SelectedUser.Username);
             try
             {
-                string username = UsernameBarViewModel.Username;
+                string username = SelectedUser.Username;
                 LoginResponse response =
-                    DatabaseHandler.Instance.Login(UsernameBarViewModel.Username,
+                    DatabaseHandler.Instance.Login(SelectedUser.Username,
                         SecureStringToString(PasswordBarViewModel.Password));
                 if (response.Status == LoginStatus.Unsuccessful)
                 {
@@ -276,8 +297,11 @@ namespace DSA.Login.Login
                 {
                     ResponseVisibility = Visibility.Collapsed;
                     InvalidPasswordMessageVisibility = Visibility.Collapsed;
-                    UsernameBarViewModel.ChangeTextModeVisibility();
-                    //eventAgg.GetEvent<ShellStateChangeEvent>().Publish(ShellState.DentalRecords);
+                    //UsernameBarViewModel.ChangeTextModeVisibility();
+                    LocalCache.Instance.CurrentUser = new LocalUser()
+                    {
+                        Id = response.UserId
+                    };
                     eventAgg.GetEvent<UserLoginEvent>().Publish(username);
                 }
             }
@@ -370,28 +394,28 @@ namespace DSA.Login.Login
         /// <param name="isConnectionSuccessful">if set to <c>true</c> [is connection successful].</param>
         private void OnUpdateConnectionStatus()//ConnectionStatus connectionStatus)
         {
-//            if (connectionStatus.IsConnectionSuccesfull && connectionStatus.LoansUpdated)
-//            {
-//                ConnectionStatusVisibility = Visibility.Visible;
-//                ServerConnectionStatus = "Connection Successful. Please login to proceed.";
-//                StatusForegroundColor = BackgroundColors.SuccessfulColor;
-//            }
-//            else
-//            {
-//                if (connectionStatus.IsConnectionSuccesfull && !connectionStatus.LoansUpdated)
-//                {
-//                    ServerConnectionStatus = "Connection successful. Please wait for the TULIP client to fetch the available loans.";
-//                    StatusForegroundColor = BackgroundColors.SuccessfulColor;
-//                }
-//                else
-//                {
-//                    ServerConnectionStatus = "Connection Unsuccessful. Please reload the application or contact your system's administrator.";
-//                    StatusForegroundColor = BackgroundColors.UnsuccessfulColor;
-//                }
-//                 ConnectionStatusVisibility = Visibility.Visible;
-//                
-//            }
-//            ConnectionSuccessful = connectionStatus.IsConnectionSuccesfull && connectionStatus.LoansUpdated;
+            //            if (connectionStatus.IsConnectionSuccesfull && connectionStatus.LoansUpdated)
+            //            {
+            //                ConnectionStatusVisibility = Visibility.Visible;
+            //                ServerConnectionStatus = "Connection Successful. Please login to proceed.";
+            //                StatusForegroundColor = BackgroundColors.SuccessfulColor;
+            //            }
+            //            else
+            //            {
+            //                if (connectionStatus.IsConnectionSuccesfull && !connectionStatus.LoansUpdated)
+            //                {
+            //                    ServerConnectionStatus = "Connection successful. Please wait for the TULIP client to fetch the available loans.";
+            //                    StatusForegroundColor = BackgroundColors.SuccessfulColor;
+            //                }
+            //                else
+            //                {
+            //                    ServerConnectionStatus = "Connection Unsuccessful. Please reload the application or contact your system's administrator.";
+            //                    StatusForegroundColor = BackgroundColors.UnsuccessfulColor;
+            //                }
+            //                 ConnectionStatusVisibility = Visibility.Visible;
+            //                
+            //            }
+            //            ConnectionSuccessful = connectionStatus.IsConnectionSuccesfull && connectionStatus.LoansUpdated;
         }
 
         #endregion
@@ -409,11 +433,18 @@ namespace DSA.Login.Login
             //}
         }
 
-        public void SetUsername()
+        private void SetLocalUsers()
         {
-            var currentUser = XmlSerializerHelper.GetFromXml<LocalUser>(ViewConstants.appDataPath);
-            if(currentUser!=null)
-            UsernameBarViewModel.Username = currentUser.Username;
+            Users = new ObservableCollection<LocalUser>(DatabaseHandler.Instance.GetUsers());
+            SelectedUser = Users.FirstOrDefault();
         }
+
+        private void SetUsername()
+        {          
+            //var currentUser = XmlSerializerHelper.GetFromXml<LocalUser>(ViewConstants.appDataPath);
+            //if (currentUser != null)
+            //    UsernameBarViewModel.Username = currentUser.Username;
+        }
+
     }
 }

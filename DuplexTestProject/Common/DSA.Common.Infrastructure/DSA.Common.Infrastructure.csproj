@@ -145,6 +145,10 @@
     <Compile Include="ImagePath.cs" />
     <Compile Include="Login\LoginResponse.cs" />
     <Compile Include="Login\UserCredentials.cs" />
+    <Compile Include="Message\MessageDialog.xaml.cs">
+      <DependentUpon>MessageDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Message\MessageDialogViewModel.cs" />
     <Compile Include="ObjectList\IObjectListBase.cs" />
     <Compile Include="ObjectList\ObjectList.cs" />
     <Compile Include="Prism\EventAggregator\EventAggregatorExtensions.cs" />
@@ -274,6 +278,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Icos\UserIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Message\MessageDialog.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

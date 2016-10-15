@@ -9,27 +9,22 @@
              xmlns:usernameBar1="clr-namespace:DSA.Common.Controls.LoginControls.UsernameBar;assembly=DSA.Common.Controls"
              xmlns:passwordBar1="clr-namespace:DSA.Common.Controls.LoginControls.PasswordBar;assembly=DSA.Common.Controls"
              mc:Ignorable="d" Name="MainLogin"
+             dx:ThemeManager.ThemeName="MetropolisLight"
              d:DesignHeight="300" d:DesignWidth="700">
     <Border Background="{Binding Background}">
-        
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-<!--            <Viewbox Margin="5" Grid.Row="0">-->
-<!--                <Image  Source="{Binding Path=ImagePath}" />-->
-<!--            </Viewbox>-->
+
             <Border Background="{Binding ControlsBackground}" Grid.Row="1">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="9*"/>
                         <ColumnDefinition Width="10*"/>
                     </Grid.ColumnDefinitions>
-                    
-<!--                    <staticIcons1:Pueblo Grid.Column="0" MaxHeight="250" MaxWidth="250" -->
-<!--                                        HorizontalAlignment="Right"/>-->
                     <Viewbox Margin="5 16 5 5" HorizontalAlignment="Right" MaxHeight="100" MaxWidth="100" Grid.Row="0">
                         <Image  Source="{Binding Path=ImagePath}" />
                     </Viewbox>
@@ -41,9 +36,24 @@
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
-                        <usernameBar1:UsernameBarView Grid.Row="0" DataContext="{Binding UsernameBarViewModel}" 
+
+                        <dxe:ComboBoxEdit  Grid.Row="0" Padding="2" Margin="5 10 0 10" 
+                                              AutoComplete="True" ImmediatePopup="True"
+                                              FontFamily="Segoe WP SemiLight" FontSize="14" 
+                                              BorderBrush="Black" 
+                                              Foreground="#FF434D59" BorderThickness="1"
+                                              ItemsSource="{Binding Users}"  
+                                              SelectedItem="{Binding SelectedUser}"
+                                              DisplayMember="Username" IsTextEditable="True"                                         
+                                              HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                            <dxe:ComboBoxEdit.StyleSettings>
+                                <dxe:ComboBoxStyleSettings />
+                            </dxe:ComboBoxEdit.StyleSettings>
+                        </dxe:ComboBoxEdit>
+
+                        <!--<usernameBar1:UsernameBarView Grid.Row="0" DataContext="{Binding UsernameBarViewModel}" 
                                                      VerticalAlignment="Bottom" HorizontalAlignment="Left" 
-                                                     IsEnabled="{Binding ElementName=MainLogin, Path=DataContext.ConnectionSuccessful}"/>
+                                                     IsEnabled="{Binding ElementName=MainLogin, Path=DataContext.ConnectionSuccessful}"/>-->
                         <passwordBar1:PasswordBarView Grid.Row="1" DataContext="{Binding PasswordBarViewModel,Mode=TwoWay}" 
                                                      VerticalAlignment="Center" HorizontalAlignment="Left" 
                                                      IsEnabled="{Binding ElementName=MainLogin, Path=DataContext.ConnectionSuccessful}"/>
@@ -62,9 +72,9 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            
+
                             <staticIcons1:AlertIcon></staticIcons1:AlertIcon>
-                            
+
                             <StackPanel Grid.Column="1" Visibility="{Binding ResponseVisibility}" VerticalAlignment="Center">
                                 <TextBlock Grid.Row="1" Margin="5" Text="{Binding ResponseStatusTitle}" FontFamily="Segoe reg"
                                            FontSize="17" FontWeight="SemiBold" Foreground="DarkOrange"/>
@@ -78,7 +88,7 @@
                                                        DataContext="{Binding ForgotPasswordViewModel}" Margin="-377,64,0,-64"/>
                     </Grid>-->
                 </Grid>
-            </Border>            
+            </Border>
             <TextBlock Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontWeight="SemiBold" FontSize="18" Margin="10 0 0 10" FontFamily="Segoe reg"
                     Text="{Binding ServerConnectionStatus}" Visibility="{Binding ConnectionStatusVisibility}" Foreground="{Binding StatusForegroundColor}" />
         </Grid>

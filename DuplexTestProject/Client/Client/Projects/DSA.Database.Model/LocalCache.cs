@@ -22,7 +22,7 @@ namespace DSA.Database.Model
             InitInterventionsTask = new Task(() =>
             {
                 Thread.CurrentThread.Name = "InitInterventions";
-                PopulateInterventionsDictionaryAsynch();
+                PopulateInterventionsDictionaryAsynch(CurrentUser.Id);
                 //PopulateInterventiosDictionary();
                 // AddYearToInterventionsDictionary();
             });
@@ -55,6 +55,8 @@ namespace DSA.Database.Model
         #region Fields
 
         private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public LocalUser CurrentUser { get; set; }
 
         public LocalPatient SelectedPatient { get; set; }
 
@@ -127,10 +129,10 @@ namespace DSA.Database.Model
             PaymentInterval = new PaymentInterval();
         }
 
-        public void PopulateInterventionsDictionaryAsynch()
+        public void PopulateInterventionsDictionaryAsynch(int userId)
         {
             InterventionsDictionary = new Dictionary<int, Dictionary<int, List<LocalIntervention>>>();
-            var currentYears = DatabaseHandler.Instance.GetLocalYears();
+            var currentYears = DatabaseHandler.Instance.GetLocalYears(userId);
             Object thisLock = new Object();
             List<Task> getYearTaskList = new List<Task>();
             foreach (var currentYear in currentYears)
@@ -166,55 +168,6 @@ namespace DSA.Database.Model
                 task.Start();
             }
             Task.WaitAll(getYearTaskList.ToArray());
-        }
-
-        public void PopulateInterventiosDictionary()
-        {
-            InterventionsDictionary = new Dictionary<int, Dictionary<int, List<LocalIntervention>>>();
-            var currentYears = DatabaseHandler.Instance.GetLocalYears();
-            foreach (var currentYear in currentYears)
-            {
-                if (!InterventionsDictionary.ContainsKey(currentYear.YearNb))
-                {
-                    Dictionary<int, List<LocalIntervention>> monthsIntervensions = new Dictionary<int, List<LocalIntervention>>();
-                    foreach (var localIntervention in currentYear.Interventions)
-                    {
-                        int monthNumber = localIntervention.DateHourDetail.Date.Month;
-                        if (monthsIntervensions.ContainsKey(monthNumber))
-                        {
-                            monthsIntervensions[monthNumber].Add(localIntervention);
-                        }
-                        else
-                        {
-                            monthsIntervensions.Add(localIntervention.DateHourDetail.Date.Month, new List<LocalIntervention>() { localIntervention });
-                        }
-                    }
-                    InterventionsDictionary.Add(currentYear.YearNb, monthsIntervensions);
-                }
-
-            }
-        }
-
-        public async void AddYearToInterventionsDictionary()
-        {
-            var currentYear = await DatabaseHandler.Instance.GetLocalYear(2014);
-            new Task(delegate
-            {
-                Dictionary<int, List<LocalIntervention>> monthsIntervensions = new Dictionary<int, List<LocalIntervention>>();
-                foreach (var localIntervention in currentYear.Interventions)
-                {
-                    int monthNumber = localIntervention.DateHourDetail.Date.Month;
-                    if (monthsIntervensions.ContainsKey(monthNumber))
-                    {
-                        monthsIntervensions[monthNumber].Add(localIntervention);
-                    }
-                    else
-                    {
-                        monthsIntervensions.Add(localIntervention.DateHourDetail.Date.Month, new List<LocalIntervention>() { localIntervention });
-                    }
-                }
-                InterventionsDictionary.Add(currentYear.YearNb, monthsIntervensions);
-            }).Start();
         }
 
         public void AddIntervention(LocalIntervention localIntervention)
@@ -258,7 +211,7 @@ namespace DSA.Database.Model
 
         private async void PopulatePatientsRepository()
         {
-            var patients = await DatabaseHandler.Instance.GetPatients();
+            var patients = await DatabaseHandler.Instance.GetPatients(CurrentUser.Id);
             PatientsRepository.SetPatient(patients);
         }
 

@@ -40,10 +40,7 @@ namespace DSA.Module.DentalRecords.Interventions.InterventionsList.InterventionM
             PopulateInterventions(localInterventions);
             MonthName = LocalCache.Instance.MonthsNames[monthNumber - 1];
             MonthId = monthNumber;
-            //            DeleteBtn = new SymbolIconButtonViewModel(new DelegateCommand(OnDelete), ViewConstants.DeleteSymbol);
             DeleteRowCommand = new DelegateCommand<InterventionDetails>(OnDelete);
-            //            SelectedInterv = new ObservableCollection<InterventionDetails>();
-            //            SelectedInterv.CollectionChanged += SelectedTasks_CollectionChanged;
             eventAggregator = ServiceLocator.Current.GetInstance<IEventAggregator>();
         }
 
@@ -437,8 +434,6 @@ namespace DSA.Module.DentalRecords.Interventions.InterventionsList.InterventionM
 
         public void EditIntervention()
         {
-            // Parent.Parent.Parent.AddInterventionTileViewModel.SelectedInterventionDetails 
-            //            Parent.Parent.Parent.AddInterventionTileViewModel.SetInterventionToEdit(SelectedIntervention);
             Parent.Parent.Parent.AddInterventionTileViewModel.SetInterventionToEdit();
         }
 
@@ -465,9 +460,9 @@ namespace DSA.Module.DentalRecords.Interventions.InterventionsList.InterventionM
                     });
                     SeenInterventions.Remove(intervention);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show("A intervenit o eroare la ștergere.");
 
                 }
             }

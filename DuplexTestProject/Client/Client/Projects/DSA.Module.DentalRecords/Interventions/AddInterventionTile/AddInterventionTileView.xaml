@@ -26,8 +26,7 @@
                     <ColumnDefinition Width="200"/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <!--                            <ColumnDefinition Width="{Binding AuxColWidthRow2}"/>-->
+                    <ColumnDefinition/>                    
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition/>

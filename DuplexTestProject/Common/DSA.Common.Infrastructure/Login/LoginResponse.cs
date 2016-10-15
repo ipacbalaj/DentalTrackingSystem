@@ -78,5 +78,20 @@ namespace DSA.Common.Infrastructure.Login
             }
         }
 
+        private int userId;
+
+        public int UserId
+        {
+            get { return userId; }
+            set
+            {
+                if (value == userId)
+                    return;
+                userId = value;
+                OnPropertyChanged();
+            }
+        }
+
+
     }
 }
