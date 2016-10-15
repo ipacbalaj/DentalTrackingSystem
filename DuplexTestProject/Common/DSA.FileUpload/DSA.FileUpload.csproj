@@ -71,6 +71,10 @@
       <Project>{e71be83d-e64a-4d52-97ab-0ab7482363f7}</Project>
       <Name>DSA.Database.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DSA.Common.Controls\DSA.Common.Controls.csproj">
+      <Project>{31f537e0-57eb-4962-99c8-f9793315ffdd}</Project>
+      <Name>DSA.Common.Controls</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DSA.Common.Infrastructure\DSA.Common.Infrastructure.csproj">
       <Project>{edd4730d-bac5-4d75-b556-c70c8bfd736b}</Project>
       <Name>DSA.Common.Infrastructure</Name>

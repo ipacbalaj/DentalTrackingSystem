@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows;
-using DevExpress.XtraBars.Docking2010.Base;
 using Microsoft.Practices.Prism.Events;
 
 namespace DSA.Common.Controls.Loading.MetroLoading

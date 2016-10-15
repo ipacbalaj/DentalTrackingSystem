@@ -30,33 +30,110 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v12.2">
-      <HintPath>E:\work\TULIP-tora\trunk\References\DevExpress\v12.2\Framework\DevExpress.Data.v12.2.dll</HintPath>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Data.v12.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v12.2">
-      <HintPath>E:\Potitehnica\ds\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.dll</HintPath>
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Printing.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Utils.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2.UI, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Utils.v12.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v12.2.Extensions, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Core.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Extensions, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Grid.v12.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Printing.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Scheduler.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.DXStyle.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisDark.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.Xpf.Themes.MetropolisLight.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraBars.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraGrid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\DevExpress\v12.2\Framework\DevExpress.XtraLayout.v12.2.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\DSA.Database.Model\bin\Debug\log4net.dll</HintPath>
+      <HintPath>E:\DTS\finalProject\References\Log4Net\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>E:\Potitehnica\ds\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+    <Reference Include="Microsoft.Practices.Prism, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>E:\Potitehnica\ds\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>E:\Potitehnica\ds\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Unity.dll</HintPath>
+    <Reference Include="Microsoft.Practices.Prism.MefExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.MefExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -76,16 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Common\DSA.Common.Controls\DSA.Common.Controls.csproj">
-      <Project>{31F537E0-57EB-4962-99C8-F9793315FFDD}</Project>
+      <Project>{31f537e0-57eb-4962-99c8-f9793315ffdd}</Project>
       <Name>DSA.Common.Controls</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\..\Common\DSA.Common.Infrastructure\DSA.Common.Infrastructure.csproj">
-      <Project>{EDD4730D-BAC5-4D75-B556-C70C8BFD736B}</Project>
+      <Project>{edd4730d-bac5-4d75-b556-c70c8bfd736b}</Project>
       <Name>DSA.Common.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Common\DTS.FtpConnection\DTS.FtpConnection.csproj">
-      <Project>{26776D77-D1EF-464B-92C9-CB8989B8E882}</Project>
-      <Name>DTS.FtpConnection</Name>
     </ProjectReference>
     <ProjectReference Include="..\DSA.Database.Model\DSA.Database.Model.csproj">
       <Project>{E71BE83D-E64A-4D52-97AB-0AB7482363F7}</Project>
