@@ -31,13 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\..\..\Resources\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\..\..\Resources\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>E:\DTS\finalProject\References\Microsoft\Microsoft.Practices.Prism\Desktop\Microsoft.Practices.Unity.dll</HintPath>
+      <HintPath>..\..\..\Resources\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />

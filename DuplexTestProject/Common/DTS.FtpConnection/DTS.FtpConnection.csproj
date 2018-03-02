@@ -33,14 +33,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="edtFTPnet">
-      <HintPath>..\..\..\Resources\edtftpnet-2.2.3\bin\edtFTPnet.dll</HintPath>
-    </Reference>
     <Reference Include="Ftp">
-      <HintPath>..\..\resources\Ftp.dll</HintPath>
+      <HintPath>..\..\..\Resources\Ftp.dll</HintPath>
     </Reference>
     <Reference Include="ftplib">
-      <HintPath>..\..\resources\ftplib.dll</HintPath>
+      <HintPath>..\..\..\Resources\ftplib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,9 +47,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WinSCPnet">
-      <HintPath>..\..\Client\Client\packages\WinSCP.5.7.7\lib\WinSCPnet.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FTPConnectionHandler.cs" />

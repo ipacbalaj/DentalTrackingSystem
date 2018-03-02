@@ -9,15 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using DSA.Common.Controls.Buttons;
-using DevExpress.Core;
-using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Core.DataSources;
-using DevExpress.Xpf.Core.Serialization;
-using DevExpress.Xpf.Core.ServerMode;
-using DevExpress.Xpf.Grid;
-using DevExpress.Xpf.Grid.LookUp;
-using DevExpress.Xpf.Grid.TreeList;
 using System;
 using System.Diagnostics;
 using System.Windows;
